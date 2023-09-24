@@ -1,0 +1,6 @@
+timeline:
+11th: scientific computing (covid simulation), calculus 3 (dartboard simulation)
+12th: intro to computer programming (game of life), advanced computer programming (11x escape)
+Summer 2022: The Write Place
+Ongoing: competitive programming, cses
+Spring 2024: plan to research in cryptography/cybsecurity
