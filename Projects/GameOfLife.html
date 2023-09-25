@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="../MyStyle.css">
+    <h1>Conway's Game of Life</h1>
+    <meta charset="utf-8">
+</head>
+<body>
+    <ul>
+        <li><a href="../index.html">Main</a></li>
+        <li class="dropdown">
+            <a>Projects</a>
+            <div class="dropdown-content">
+                <a href="CovidSimulation.html">Covid Simulation</a>
+                <a href="InvertedDartboard.html">Inverted Dartboard</a>
+                <a href="GameOfLife.html">Conway's Game of Life</a>
+                <a href="TenXEscape.html">10x Escape</a>
+                <a href="BBGW.html">Builder Base Guide Website</a>
+                <a href="TheWritePlace.html">The Write Place</a>
+                <a href="CompetitiveProgramming.html">Competitive Programming</a>
+                <a href="UpcomingResearch">(Upcoming) Research</a>
+            </div>
+        </li>
+    </ul>
+    <p class = "project">
+        <a 
+        href="https://github.com/TheFluffyNebula/gameoflife_maven">
+        Repo Link (click me!)
+        </a> <br>
+        Date: December 2022 <br>
+        I programmed this with Suvesh Bhusal, a fellow student at The Early College at Guilford.
+        We did it for our final project in our Intro to Computer Programming class. We made a GUI 
+        that allowed the user to see an instruction manual, run some preset configurations, or 
+        choose their own with parameters size and generations. 
+        One challenge I had was the insane logic for the grid itself. Brute forcing the corners 
+        and edges and center followed by the debugging might be the single most 
+        <a href="https://github.com/TheFluffyNebula/gameoflife_maven/blob/master/src/main/java/edu/guilford/Block.java">
+            difficult</a> implementation of brute force 
+        I have ever attempted. My biggest fear was making a mistake in the hundreds of lines of code, and it happened.
+        Another great challenge was replicating the glider gun. 
+        Going to a website, copying down the coordinates of the glider gun starting configuration 
+        into a text file, and then attempting Java I/O is one of the crazier ideas I am proud of coming up with. 
+        Unfortunately, I have had trouble recovering the complete program since my old laptop broke, but I did 
+        transfer it over to Maven so that it could run in VSCode and not just NetBeans. This is a surviving 
+        screenshot I have of the glider gun working:
+    </p>
+    <img src="../Images/ConwayGameOfLife/ConwayGameOfLife1.jpg" alt = "conway game of life 1" width = "400">
+</body>

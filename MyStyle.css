@@ -92,10 +92,9 @@ pre#main {
     /*color: gold;*/
     font-size: 16pt;
 }
-p.location {
+p.project {
     text-align: left;
-    margin-right: 50%;
-    font-size: 20pt;
+    width: 50%;
 }
 /*editing purposes, media other than text*/
 strong.EditThis {
