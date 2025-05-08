@@ -102,9 +102,7 @@ p.project {
 strong.EditThis {
     color: red;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+.bioPhotos {
+    display: flex;
 }
