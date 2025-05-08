@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Covid Simulation</title>
+    <title>Conway's Game of Life</title>
     <link rel="stylesheet" href="../MyStyle.css">
-    <h1>Covid Simulation</h1>
+    <h1>Chip's Challenge</h1>
     <meta charset="utf-8">
 </head>
 <body>
@@ -37,18 +37,21 @@
         </li>
     </ul>
     <p class = "project">
-        Date: August and September 2021 <br>
-        I programmed this with Cintong He, a fellow student at The Early College at Guilford.
-        We made it for our final project for Scientific Computing. It uses 
-        Python Turtle Graphics to simulate COVID as well as show how effective vaccines and
-        quarantining could be. We also added two modes, flu and "Plague, Inc." Flu is where 
-        people are immune upon recovery, and plague is where people cannot recover. It uses
-        probability to simulate a circle's condition. Green is healthy, yellow is infected, red is dead, 
-        and blue is immune (only present in flu mode). We also implemented a distance factor, which extends 
-        the probabilities for however far the circles are away. The graph at the end uses 
-        matplotlib to show the circles' conditions over time.
+        Date: April 2025 <br>
+        This project was for my CSC411 class, Intro to Artificial Intelligence. The last problem set was Chip's Challenge, 
+        with one of the levels shown below. The goal is to collect all of the chips and then reach the portal. 
+        We were given a Java robot with some perceive methods and had to fill out a 'getAction' method returning an action 
+        like 'go up' or 'go right' on each iteration of the simulation. 
     </p>
-    <img src="../Images/CovidSimulation/CovidSim1.jpg" alt = "covid sim 1" width = "400">
-    <img src="../Images/CovidSimulation/CovidSim2.jpg" alt = "covid sim 2" width = "400">
-    <img src="../Images/CovidSimulation/CovidSim3.jpg" alt = "covid sim 3" width = "400">
+    <img src="../Images/ChipChallenge/ChipChallenge.jpg" width="800">
+    <p class = "project">
+        The method used to tackle this problem is 'Planning'. When discovering an object (ex. a door) in the way of 
+        getting a chip, a new subtask is pushed onto a stack, and the robot recomputes the path to the new subtask (the key). 
+        Once the robot reaches the subtask and picks the key up, the subtask is popped from the stack. Eventually, once all of the 
+        chips are collected, the final subtask is the portal's location. A* search with the Manhattan distance heuristic was used 
+        to compute the paths. A video of the solution running is below. 
+    </p>
+    <video height="600" controls muted>
+        <source src="../Images/ChipChallenge/ChipChallenge.mp4", type="video/mp4"/>
+    </video>
 </body>
