@@ -26,10 +26,8 @@ Here are some screenshots of the program:
   <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife4.jpg' | url }}" alt="The user-controlled setup dialog, with inputs for grid length, percentage of cells alive, and number of generations." loading="lazy"></li>
   <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife5.jpg' | url }}" alt="A simulation running on a square grid, with black live cells scattered in small clusters across a white field." loading="lazy"></li>
   <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife6.jpg' | url }}" alt="The examples dialog over a running simulation, with three gliders circled and labelled on the grid behind it." loading="lazy"></li>
-  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife1.jpg' | url }}" alt="A chat screenshot from December 2022 celebrating the glider gun working, with program output above a grid of gliders in flight." loading="lazy"></li>
 </ul>
 
-<!-- TODO: consider replacing ConwayGameOfLife1.jpg. It's a Discord screenshot that shows another
-     person's username and contains strong language, which is a slightly odd thing to have on a
-     portfolio a recruiter might read. A plain screenshot of the glider gun running would make the
-     same point. -->
+And this is the moment the glider gun finally worked, 11 December 2022, reacted to in real time:
+
+<p class="project-media"><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife1.jpg' | url }}" alt="A chat screenshot from 11 December 2022: program output listing the glider gun coordinates, an all-caps celebration, and below it the grid with a row of gliders in flight." loading="lazy"></p>

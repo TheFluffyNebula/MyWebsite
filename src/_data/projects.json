@@ -160,7 +160,7 @@
     "summary": "A self-directed static guide site for a Clash of Clans game mode, written for friends to use.",
     "date": "August – December 2022",
     "sort": "2022-12",
-    "group": "more",
+    "group": "earlier",
     "tags": [
       "HTML",
       "CSS"
@@ -178,7 +178,7 @@
     "summary": "A planning agent that collects every chip and reaches the portal using a subtask stack and A* search.",
     "date": "April 2025",
     "sort": "2025-04",
-    "group": "earlier",
+    "group": "more",
     "tags": [
       "Java",
       "A*",

@@ -4,62 +4,56 @@
    properties, responsive with no framework.
    --------------------------------------------------------------------------- */
 
-/* Light palette is the base. Dark overrides only the tokens. */
+/* Dark is the default - this site has always been black, green and
+   aquamarine, and that's the point of it. Light is available from the
+   toggle for anyone who wants it.
+
+   To respect the visitor's OS setting instead of defaulting to dark, wrap
+   the light block below in @media (prefers-color-scheme: light) and change
+   its selector to :root:not([data-theme="dark"]). */
 :root {
-  --bg:          #fbfaf8;
-  --bg-raised:   #ffffff;
-  --bg-sunken:   #f1efea;
-  --text:        #1b1a18;
-  --text-muted:  #5a564f;
-  --border:      #ddd8d0;
-  --accent:      #8a3a12;
-  --accent-text: #ffffff;
-  --accent-soft: #fbeee6;
-  --focus:       #0b63c5;
+  --bg:          #07080a;  /* near-black, the original background */
+  --bg-raised:   #121418;
+  --bg-sunken:   #000000;
+  --text:        #7fffd4;  /* aquamarine, the original body colour */
+  --text-muted:  #71b5a0;
+  --heading:     #90ee90;  /* lightgreen, the original heading colour */
+  --border:      #2b3a35;
+  --accent:      #ffd700;  /* gold, the original body/base colour */
+  --accent-text: #1a1500;
+  --accent-soft: #241f00;
+  --focus:       #ffd700;
 
   --radius: 10px;
   --wrap: 68rem;
   --measure: 38rem;
 
-  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-          "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  /* The original serif body and monospace headings, kept. */
+  --font: Cambria, Georgia, "Book Antiqua", "Times New Roman", serif;
+  --font-head: "Courier New", Courier, ui-monospace, SFMono-Regular,
+               Consolas, monospace;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas,
                "Liberation Mono", Menlo, monospace;
 
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg:          #14161a;
-    --bg-raised:   #1c1f25;
-    --bg-sunken:   #0f1114;
-    --text:        #e9e8e4;
-    --text-muted:  #a8a69f;
-    --border:      #333841;
-    --accent:      #ffb37a;
-    --accent-text: #241105;
-    --accent-soft: #2a2119;
-    --focus:       #7fb6ff;
-
-    color-scheme: dark;
-  }
-}
-
-/* Explicit toggle wins in both directions. */
-:root[data-theme="dark"] {
-  --bg:          #14161a;
-  --bg-raised:   #1c1f25;
-  --bg-sunken:   #0f1114;
-  --text:        #e9e8e4;
-  --text-muted:  #a8a69f;
-  --border:      #333841;
-  --accent:      #ffb37a;
-  --accent-text: #241105;
-  --accent-soft: #2a2119;
-  --focus:       #7fb6ff;
-
   color-scheme: dark;
+}
+
+/* Light mode: the same palette walked into the light, not a plain invert.
+   Cream paper, deep green headings, deep teal text, dark amber links. */
+:root[data-theme="light"] {
+  --bg:          #fdfcf5;
+  --bg-raised:   #ffffff;
+  --bg-sunken:   #f3f0e3;
+  --text:        #0f4238;
+  --text-muted:  #3a5d54;
+  --heading:     #146b2c;
+  --border:      #d8d4c2;
+  --accent:      #7a5200;
+  --accent-text: #ffffff;
+  --accent-soft: #fbf2d6;
+  --focus:       #0b63c5;
+
+  color-scheme: light;
 }
 
 /* --------------------------------------------------------------- base --- */
@@ -79,13 +73,20 @@ body {
 }
 
 h1, h2, h3 {
+  font-family: var(--font-head);
+  color: var(--heading);
   line-height: 1.2;
   text-wrap: balance;
   margin: 0 0 0.5em;
 }
-h1 { font-size: clamp(1.9rem, 1.5rem + 1.8vw, 2.75rem); letter-spacing: -0.02em; }
-h2 { font-size: clamp(1.4rem, 1.25rem + 0.8vw, 1.85rem); letter-spacing: -0.01em; }
-h3 { font-size: 1.15rem; }
+/* Centred monospace page title, as on the original site. */
+h1 {
+  font-size: clamp(1.6rem, 1.1rem + 2.2vw, 2.6rem);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+h2 { font-size: clamp(1.3rem, 1.15rem + 0.7vw, 1.7rem); }
+h3 { font-size: 1.1rem; }
 
 p { margin: 0 0 1rem; }
 
@@ -151,11 +152,11 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 2.5rem 0; }
 }
 
 .nav-brand {
+  font-family: var(--font-head);
   font-weight: 700;
-  color: var(--text);
+  color: var(--heading);
   text-decoration: none;
   margin-right: auto;
-  letter-spacing: -0.01em;
 }
 .nav-brand:hover { color: var(--accent); }
 
@@ -361,7 +362,7 @@ main.wrap { padding-block: clamp(2rem, 1.2rem + 3vw, 3.5rem) 4rem; }
 
 .card-body { padding: 1rem 1.1rem 1.1rem; display: flex; flex-direction: column; flex: 1; }
 .card-title { margin: 0 0 0.3rem; }
-.card-title a { color: var(--text); text-decoration: none; }
+.card-title a { color: var(--heading); text-decoration: none; }
 .card-title a:hover { color: var(--accent); text-decoration: underline; }
 
 .card-meta,
@@ -414,8 +415,8 @@ main.wrap { padding-block: clamp(2rem, 1.2rem + 3vw, 3.5rem) 4rem; }
 }
 .callout > :last-child { margin-bottom: 0; }
 .callout-title { font-size: 1rem; margin: 0 0 0.4rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
-.callout-warning { border-left-color: #b4461c; }
-:root[data-theme="dark"] .callout-warning { border-left-color: #ff9d6b; }
+.callout-warning { border-left-color: #ff8a6b; }
+:root[data-theme="light"] .callout-warning { border-left-color: #b4461c; }
 
 .update { margin-top: 2.5rem; }
 .update-date {
