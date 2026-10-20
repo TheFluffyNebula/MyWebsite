@@ -2,7 +2,7 @@
   <div class="wrap">
     <p>
       {% if last_updated %}
-        Last updated <time datetime="{{ last_updated }}">{{ last_updated | readableDate }}</time>.
+        Last updated <time datetime="{{ last_updated | isoDate }}">{{ last_updated | readableDate }}</time>.
       {% endif %}
       Built with <a href="https://www.11ty.dev/">Eleventy</a> and hosted on GitHub Pages.
     </p>

@@ -4,6 +4,7 @@ slug: GameOfLife
 permalink: /Projects/GameOfLife.html
 title: Conway's Game of Life
 description: A Java GUI for Conway's Game of Life with preset and custom configurations, including a hand-rebuilt glider gun.
+last_updated: 2026-10-20
 ---
 
 I programmed this with Suvesh Bhusal, a fellow student at The Early College at Guilford.
@@ -20,10 +21,15 @@ into a text file, and then attempting Java I/O is one of the crazier ideas I am 
 Here are some screenshots of the program:
 
 <ul class="shots">
-  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife1.jpg' | url }}" alt="conway game of life 1" loading="lazy"></li>
-  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife2.jpg' | url }}" alt="conway game of life 2" loading="lazy"></li>
-  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife3.jpg' | url }}" alt="conway game of life 3" loading="lazy"></li>
-  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife4.jpg' | url }}" alt="conway game of life 4" loading="lazy"></li>
-  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife5.jpg' | url }}" alt="conway game of life 5" loading="lazy"></li>
-  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife6.jpg' | url }}" alt="conway game of life 6" loading="lazy"></li>
+  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife2.jpg' | url }}" alt="The program's title screen, &quot;Suvesh and Jason's Game of Life&quot;, with buttons for How it Works, User Controlled and Examples." loading="lazy"></li>
+  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife3.jpg' | url }}" alt="The How It Works screen, listing Conway's four survival and birth rules with a worked example beside each." loading="lazy"></li>
+  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife4.jpg' | url }}" alt="The user-controlled setup dialog, with inputs for grid length, percentage of cells alive, and number of generations." loading="lazy"></li>
+  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife5.jpg' | url }}" alt="A simulation running on a square grid, with black live cells scattered in small clusters across a white field." loading="lazy"></li>
+  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife6.jpg' | url }}" alt="The examples dialog over a running simulation, with three gliders circled and labelled on the grid behind it." loading="lazy"></li>
+  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife1.jpg' | url }}" alt="A chat screenshot from December 2022 celebrating the glider gun working, with program output above a grid of gliders in flight." loading="lazy"></li>
 </ul>
+
+<!-- TODO: consider replacing ConwayGameOfLife1.jpg. It's a Discord screenshot that shows another
+     person's username and contains strong language, which is a slightly odd thing to have on a
+     portfolio a recruiter might read. A plain screenshot of the glider gun running would make the
+     same point. -->

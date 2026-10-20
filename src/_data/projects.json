@@ -6,9 +6,14 @@
     "date": "October 2025",
     "sort": "2025-10",
     "group": "featured",
-    "tags": ["React", "FastAPI", "Gemini", "ElevenLabs"],
+    "tags": [
+      "React",
+      "FastAPI",
+      "Gemini",
+      "ElevenLabs"
+    ],
     "thumb": "/Images/InterviewArcade/Intro.jpg",
-    "thumb_alt": "Interview Arcade intro screen, showing the app's title and a button to begin a practice interview.",
+    "thumb_alt": "The Interview Arcade welcome screen, reading \"Welcome to Interview Arcade!\" above Company, Random and Category buttons and a Confirm button.",
     "status": "1st place, General Track — HackNC 2025",
     "devpost_url": "https://devpost.com/software/interview-arcade",
     "repo_url": "",
@@ -22,7 +27,11 @@
     "date": "August 2025 – May 2026",
     "sort": "2026-05",
     "group": "featured",
-    "tags": ["Full-stack", "Geospatial", "Docker"],
+    "tags": [
+      "Full-stack",
+      "Geospatial",
+      "Docker"
+    ],
     "thumb": "",
     "thumb_alt": "",
     "status": "1st place, undergraduate research poster — NCROEP Symposium",
@@ -37,7 +46,11 @@
     "date": "February 2026",
     "sort": "2026-02",
     "group": "featured",
-    "tags": ["Flutter", "AWS", "Docker"],
+    "tags": [
+      "Flutter",
+      "AWS",
+      "Docker"
+    ],
     "thumb": "",
     "thumb_alt": "",
     "status": "Built at Hack_NCState 2026",
@@ -52,7 +65,12 @@
     "date": "October 2024 – Present",
     "sort": "2026-10",
     "group": "featured",
-    "tags": ["Python", "Jupyter", "Pyodide", "Azure"],
+    "tags": [
+      "Python",
+      "Jupyter",
+      "Pyodide",
+      "Azure"
+    ],
     "thumb": "",
     "thumb_alt": "",
     "status": "In progress",
@@ -60,7 +78,6 @@
     "live_url": "",
     "video_url": ""
   },
-
   {
     "slug": "Pounce",
     "title": "Pounce",
@@ -68,9 +85,14 @@
     "date": "July 2024 – August 2025",
     "sort": "2025-08",
     "group": "more",
-    "tags": ["React", "Express", "Socket.IO", "Render"],
+    "tags": [
+      "React",
+      "Express",
+      "Socket.IO",
+      "Render"
+    ],
     "thumb": "/Images/Pounce/Pounce1.jpg",
-    "thumb_alt": "The Pounce game board mid-round, showing stacked piles of playing cards laid out for multiple players.",
+    "thumb_alt": "The Pounce game board, with several players’ solitaire layouts of face-up and face-down cards arranged around a shared centre area.",
     "status": "Deployed",
     "repo_url": "https://github.com/TheFluffyNebula/Pounce",
     "live_url": "https://pounce.onrender.com",
@@ -83,9 +105,13 @@
     "date": "~2019 – Present",
     "sort": "2025-04",
     "group": "more",
-    "tags": ["C++", "Algorithms", "Contests"],
+    "tags": [
+      "C++",
+      "Algorithms",
+      "Contests"
+    ],
     "thumb": "/Images/CompetitiveProgramming/LeetCode2000.jpg",
-    "thumb_alt": "LeetCode contest rating graph climbing to a rating of 2000.",
+    "thumb_alt": "A LeetCode profile page showing a contest rating of 2,013 at Knight level, in the top 2.47% globally.",
     "status": "Ongoing",
     "repo_url": "https://github.com/TheFluffyNebula/CSES",
     "live_url": "",
@@ -98,9 +124,12 @@
     "date": "2014 – 2025",
     "sort": "2025-04",
     "group": "more",
-    "tags": ["Practice", "Monkeytype"],
+    "tags": [
+      "Practice",
+      "Monkeytype"
+    ],
     "thumb": "/Images/Typing/Typing_15s_3.png",
-    "thumb_alt": "Monkeytype result screen showing a 15-second test completed above 200 words per minute.",
+    "thumb_alt": "A Monkeytype result screen: 208 words per minute at 96% accuracy on a 15-second English test.",
     "status": "Goals met",
     "repo_url": "",
     "live_url": "",
@@ -113,9 +142,13 @@
     "date": "June – October 2022",
     "sort": "2022-10",
     "group": "more",
-    "tags": ["Firebase", "webpack", "Android"],
+    "tags": [
+      "Firebase",
+      "webpack",
+      "Android"
+    ],
     "thumb": "/Images/TheWritePlace/TheWritePlace1.jpg",
-    "thumb_alt": "The Write Place web interface showing the essay review screen with a list of submitted essays.",
+    "thumb_alt": "The Write Place logo, a pencil drawn inside a house outline, beside the sign-in form with email, username and password fields.",
     "status": "3rd place — Ready, Set, App! Contest",
     "repo_url": "https://github.com/TheFluffyNebula/The-Write-Place-Web-v1",
     "live_url": "https://thefluffynebula.github.io/The-Write-Place-Web-v1/dist/",
@@ -128,15 +161,17 @@
     "date": "August – December 2022",
     "sort": "2022-12",
     "group": "more",
-    "tags": ["HTML", "CSS"],
+    "tags": [
+      "HTML",
+      "CSS"
+    ],
     "thumb": "/Images/BBGW/BBGW1.jpg",
-    "thumb_alt": "Builder Base Guide Website home page, a grid of thumbnail links to individual base layout guides.",
+    "thumb_alt": "A Clash of Clans Builder Base profile screen showing 5000 trophies, an all-time best of 7091, and a best tournament finish of 36th in the April 2022 season.",
     "status": "",
     "repo_url": "https://github.com/TheFluffyNebula/Builder-Base-Guide-Website",
     "live_url": "https://thefluffynebula.github.io/Builder-Base-Guide-Website/MainPage.html",
     "video_url": ""
   },
-
   {
     "slug": "ChipsChallenge",
     "title": "Chip's Challenge",
@@ -144,9 +179,13 @@
     "date": "April 2025",
     "sort": "2025-04",
     "group": "earlier",
-    "tags": ["Java", "A*", "AI"],
+    "tags": [
+      "Java",
+      "A*",
+      "AI"
+    ],
     "thumb": "/Images/ChipChallenge/ChipChallenge.jpg",
-    "thumb_alt": "A Chip's Challenge grid level showing the robot, scattered chips, locked doors and the exit portal.",
+    "thumb_alt": "The Chip’s Challenge grid, showing the player character surrounded by computer chips, coloured keys and locked doors, with \"Chips Remaining 10\" beside the board.",
     "status": "",
     "repo_url": "",
     "live_url": "",
@@ -159,9 +198,13 @@
     "date": "May 2023",
     "sort": "2023-05",
     "group": "earlier",
-    "tags": ["Java", "JavaFX", "Maven"],
-    "thumb": "/Images/TenXEscape/TenXEscape6.jpg",
-    "thumb_alt": "A 10x Escape puzzle level, showing a door with a coloured button panel beside it.",
+    "tags": [
+      "Java",
+      "JavaFX",
+      "Maven"
+    ],
+    "thumb": "/Images/TenXEscape/TenXEscape5.jpg",
+    "thumb_alt": "A 10x Escape puzzle level on a teal background, with a black panel, a row of lettered buttons and the caption \"Level 10\".",
     "status": "",
     "repo_url": "https://github.com/TheFluffyNebula/escapefx",
     "live_url": "",
@@ -174,9 +217,13 @@
     "date": "November – December 2022",
     "sort": "2022-12",
     "group": "earlier",
-    "tags": ["Java", "Maven", "GUI"],
-    "thumb": "/Images/ConwayGameOfLife/ConwayGameOfLife3.jpg",
-    "thumb_alt": "Conway's Game of Life grid mid-simulation, with live cells forming scattered clusters.",
+    "tags": [
+      "Java",
+      "Maven",
+      "GUI"
+    ],
+    "thumb": "/Images/ConwayGameOfLife/ConwayGameOfLife5.jpg",
+    "thumb_alt": "A Game of Life grid mid-simulation, filled with scattered black live cells in small clusters.",
     "status": "",
     "repo_url": "https://github.com/TheFluffyNebula/gameoflife_maven",
     "live_url": "",
@@ -189,9 +236,13 @@
     "date": "December 2021",
     "sort": "2021-12",
     "group": "earlier",
-    "tags": ["Python", "Monte Carlo", "Calculus"],
+    "tags": [
+      "Python",
+      "Monte Carlo",
+      "Calculus"
+    ],
     "thumb": "/Images/InvertedDartboard/InvertedDartboard1.jpg",
-    "thumb_alt": "A computer-drawn dartboard with its scoring segments inverted so outer rings are worth more.",
+    "thumb_alt": "Two dartboards side by side, labelled Board A and Board B. Board A is a standard numbered board; Board B has plain concentric rings scoring 10 at the outside up to 80 at the centre.",
     "status": "",
     "repo_url": "",
     "live_url": "",
@@ -204,9 +255,13 @@
     "date": "August – September 2021",
     "sort": "2021-09",
     "group": "earlier",
-    "tags": ["Python", "Turtle", "matplotlib"],
+    "tags": [
+      "Python",
+      "Turtle",
+      "matplotlib"
+    ],
     "thumb": "/Images/CovidSimulation/CovidSim1.jpg",
-    "thumb_alt": "Covid simulation window showing coloured circles representing healthy, infected, dead and immune individuals.",
+    "thumb_alt": "The simulation running in a Python Turtle window, a grid of green, yellow and red circles at week 20, beside a matplotlib graph of infected and dead percentages over time.",
     "status": "",
     "repo_url": "",
     "live_url": "",

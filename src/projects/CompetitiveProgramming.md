@@ -4,6 +4,13 @@ slug: CompetitiveProgramming
 permalink: /Projects/CompetitiveProgramming.html
 title: Competitive Programming
 description: An ongoing record of contests, ratings and the problem-solving techniques picked up along the way.
+last_updated: 2026-10-20
+standing: |
+  <p>This page is a running journal, and the entries below are kept as they were written — the
+  opening paragraph dates from September 2023, so its goals and ratings were overtaken by the
+  updates that follow it.</p>
+  <p><!-- TODO: add a line here saying where your competitive programming stands as of now
+       (current Codeforces / LeetCode ratings, what you're training for). --></p>
 ---
 
 My Competitive Programming (CP) journey has been quite rocky, but I
@@ -17,9 +24,9 @@ Practice Round of the Meta Hacker Cup! This year I'm shooting for a tshirt, whic
 the top 2000 contestants last year. Here's where I am at right now on the above:
 
 <ul class="shots">
-  <li><img src="{{ '/Images/CompetitiveProgramming/CompetitiveProgramming1.jpg' | url }}" alt="competitive programming 1" loading="lazy"></li>
-  <li><img src="{{ '/Images/CompetitiveProgramming/CompetitiveProgramming2.jpg' | url }}" alt="competitive programming 2" loading="lazy"></li>
-  <li><img src="{{ '/Images/CompetitiveProgramming/CompetitiveProgramming3.jpg' | url }}" alt="competitive programming 3" loading="lazy"></li>
+  <li><img src="{{ '/Images/CompetitiveProgramming/CompetitiveProgramming1.jpg' | url }}" alt="A USA Computing Olympiad account page showing the division set to Silver." loading="lazy"></li>
+  <li><img src="{{ '/Images/CompetitiveProgramming/CompetitiveProgramming2.jpg' | url }}" alt="A Codeforces profile at Pupil rank with a contest rating of 1246 and a maximum of 1275." loading="lazy"></li>
+  <li><img src="{{ '/Images/CompetitiveProgramming/CompetitiveProgramming3.jpg' | url }}" alt="The Meta Hacker Cup 2023 practice round, open on problem D, with a running score of 60 out of 100 points and a rank of 769th out of 11,392." loading="lazy"></li>
 </ul>
 
 <div class="update">
@@ -34,8 +41,8 @@ well as possible approaches but ultimately couldn't make significant progress wi
 I'm tired at the moment, so I'll try to solve them after the contest is over.
 
 <ul class="shots">
-  <li><img src="{{ '/Images/CompetitiveProgramming/Update1_1.jpg' | url }}" alt="update 1_1" loading="lazy"></li>
-  <li><img src="{{ '/Images/CompetitiveProgramming/Update1_2.jpg' | url }}" alt="update 1_2" loading="lazy"></li>
+  <li><img src="{{ '/Images/CompetitiveProgramming/Update1_1.jpg' | url }}" alt="Meta Hacker Cup 2023 season results: practice round 646th of 12,138, round 1 4,974th of 20,324 with advancement to round 2, and round 2 3,143rd of 6,193." loading="lazy"></li>
+  <li><img src="{{ '/Images/CompetitiveProgramming/Update1_2.jpg' | url }}" alt="An ICPC North America Qualifier 2023 scoreboard row showing five problems solved out of twelve." loading="lazy"></li>
 </ul>
 </div>
 
@@ -49,7 +56,7 @@ I got close to solving problem B, which was dynamic programming on a tree. I had
 30 minutes left but was almost able to implement it. The other problems had to do with bits, trees, and
 geometry. I hope to improve at these areas!
 
-<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/Update_2.jpg' | url }}" alt="" loading="lazy"></p>
+<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/Update_2.jpg' | url }}" alt="Holding up the ICPC Mid-Atlantic USA Regional medal on its red ribbon just after the contest." loading="lazy"></p>
 </div>
 
 <div class="update">
@@ -71,20 +78,20 @@ contests, there's usaco, leetcode, and codeforces.
 
 After the plagiarism checks, I am now rank 1969!!! T-shirt acquired :D I can't believe it.
 
-<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/HackerCup2024.jpg' | url }}" alt="" loading="lazy"></p>
+<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/HackerCup2024.jpg' | url }}" alt="Meta Hacker Cup 2024 results: round 1 ranked 4,309th of 22,494 with advancement to round 2, and round 2 ranked 2,012th of 5,000 — the standing before plagiarism checks moved it to 1,969th." loading="lazy"></p>
 </div>
 
 <div class="update">
 <p class="update-date">2/13/25 Update</p>
 
-1900 LeetCode contest rating! I would say the most improtant concept I've learned throughout the past few months
-is dynamic programming. Turns out it was the LeetCode Premium Dyanmic Programming module that was finally able to
+1900 LeetCode contest rating! I would say the most important concept I've learned throughout the past few months
+is dynamic programming. Turns out it was the LeetCode Premium Dynamic Programming module that was finally able to
 teach me how it works. I appreciate the categories of optimization vs counting dp, common patterns, etc. I've found
 that I'm able to approach most easy-medium dp question and even put a good effort on some hard ones. Doing the weekly
 contests also makes me more prepared for some of these online assessments. It's really satisfying to finally learn the
 one concept from the beginning that I've had trouble on, as well as to be able to solve problems I wasn't able to before.
 
-<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/LeetCode1900.jpg' | url }}" alt="" loading="lazy"></p>
+<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/LeetCode1900.jpg' | url }}" alt="A LeetCode profile showing a contest rating of 1,927 at Knight level, top 3.85% globally, with 140 problems solved." loading="lazy"></p>
 </div>
 
 <div class="update">
@@ -94,5 +101,5 @@ one concept from the beginning that I've had trouble on, as well as to be able t
 next rating goal on this site is 2150, which is where I think the guardian badge lies. I'd also love to get my first
 4/4 contest.
 
-<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/LeetCode2000.jpg' | url }}" alt="" loading="lazy"></p>
+<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/LeetCode2000.jpg' | url }}" alt="A LeetCode profile showing a contest rating of 2,013 at Knight level, top 2.47% globally, with 152 problems solved." loading="lazy"></p>
 </div>

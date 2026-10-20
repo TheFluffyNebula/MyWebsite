@@ -10,7 +10,7 @@
         <details class="nav-disclosure">
           <summary>Projects</summary>
           <ul class="nav-menu">
-            <li><a href="{{ '/projects/' | url }}"><strong>All projects</strong></a></li>
+            <li><a href="{{ '/Projects/' | url }}"><strong>All projects</strong></a></li>
             {% for p in projects | byGroup("featured") %}
               <li><a href="{{ ('/Projects/' + p.slug + '.html') | url }}">{{ p.title }}</a></li>
             {% endfor %}

@@ -4,6 +4,12 @@ slug: Typing
 permalink: /Projects/Typing.html
 title: Typing
 description: Ten years of chasing two typing goals — 200 wpm over 15 seconds and 180 wpm over 60 — and finally hitting both.
+last_updated: 2026-10-20
+standing: |
+  <p>Both goals were met in 2025 — 200 wpm over 15 seconds in January and 180 wpm over 60 seconds
+  in April — and I stepped back from serious practice afterwards. The account below is kept as it
+  was written at the time.</p>
+  <p><!-- TODO: add a line here if you've since come back to it, or delete this box. --></p>
 ---
 
 In 4th grade, we were playing NitroType in a computer lab. Around that time, I was at roughly 40-45 words per minute (wpm).
@@ -27,8 +33,8 @@ making some costly mistakes in the final few seconds. It was really frustrating 
 few more seconds but failed time and time again.
 
 <ul class="shots">
-  <li><img src="{{ '/Images/Typing/Typing_15s_1.png' | url }}" alt="typing15-1" loading="lazy"></li>
-  <li><img src="{{ '/Images/Typing/Typing_60s_1.png' | url }}" alt="typing60-1" loading="lazy"></li>
+  <li><img src="{{ '/Images/Typing/Typing_15s_1.png' | url }}" alt="A Monkeytype result: 196 words per minute at 97% accuracy on a 15-second test, the near miss from May 2024." loading="lazy"></li>
+  <li><img src="{{ '/Images/Typing/Typing_60s_1.png' | url }}" alt="A Monkeytype result: 174 words per minute at 97% accuracy on a 60-second test, the near miss from June 2024." loading="lazy"></li>
 </ul>
 
 The turning point for me was when I started viewing these 'chokes' as progress, as evidence that I was capable of achieving
@@ -50,8 +56,8 @@ take another 8 months. I'm delighted to say that as of writing this on 4/13/25 t
 I got 180 on monkeytype's 60s test, wrapping up this chapter of my typing journey.
 
 <ul class="shots">
-  <li><img src="{{ '/Images/Typing/Typing_15s_2.png' | url }}" alt="typing15-2" loading="lazy"></li>
-  <li><img src="{{ '/Images/Typing/Typing_60s_2.png' | url }}" alt="typing60-2" loading="lazy"></li>
+  <li><img src="{{ '/Images/Typing/Typing_15s_2.png' | url }}" alt="A Monkeytype result: 202 words per minute at 99% accuracy on a 15-second test — the first time past the 200 wpm goal." loading="lazy"></li>
+  <li><img src="{{ '/Images/Typing/Typing_60s_2.png' | url }}" alt="A Monkeytype result: 180 words per minute at 93% accuracy on a 60-second test — the second goal met." loading="lazy"></li>
 </ul>
 
 Looking forward, I think I'm going to take a break for now. Although I love this hobby a lot,
@@ -67,7 +73,7 @@ I guess I couldn't resist leaving that 202 there knowing I was capable of more. 
 personal best rounds out my website rankings quite nicely!
 
 <ul class="shots">
-  <li><img src="{{ '/Images/Typing/Typing_15s_3.png' | url }}" alt="typing15-3" loading="lazy"></li>
-  <li><img src="{{ '/Images/Typing/Typing_MT_Profile.png' | url }}" alt="typing-mt-profile" loading="lazy"></li>
+  <li><img src="{{ '/Images/Typing/Typing_15s_3.png' | url }}" alt="A Monkeytype result: 208 words per minute at 96% accuracy on a 15-second test, second on that day's leaderboard." loading="lazy"></li>
+  <li><img src="{{ '/Images/Typing/Typing_MT_Profile.png' | url }}" alt="A Monkeytype profile summary listing personal bests of 208, 186, 180 and 164 words per minute at 15, 30, 60 and 120 seconds, with all-time English leaderboard placings in the top 0.14%." loading="lazy"></li>
 </ul>
 </div>

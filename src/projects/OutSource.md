@@ -4,6 +4,7 @@ slug: OutSource
 permalink: /Projects/OutSource.html
 title: OutSource
 description: A containerized outdoors app with a Flutter frontend, deployed on AWS at Hack_NCState 2026.
+last_updated: 2026-10-20
 ---
 
 OutSource was built at Hack_NCState 2026.

@@ -4,6 +4,7 @@ slug: NCROEP
 permalink: /Projects/NCROEP.html
 title: Offshore Energy Siting Tool
 description: Full-stack web app that pairs multi-year geospatial ocean resource data with device specifications to surface promising offshore energy technology combinations.
+last_updated: 2026-10-20
 ---
 
 I built this as a software engineering intern with the NC Renewable Ocean Energy Program at

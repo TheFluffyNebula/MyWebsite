@@ -26,6 +26,14 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  // YYYY-MM-DD for the <time datetime> attribute. YAML parses an unquoted
+  // 2026-10-20 into a Date, whose toString() is not a valid datetime value.
+  eleventyConfig.addFilter("isoDate", (value) => {
+    const d = value instanceof Date ? value : new Date(value);
+    if (Number.isNaN(d.getTime())) return value;
+    return d.toISOString().slice(0, 10);
+  });
+
   eleventyConfig.addFilter("readableDate", (value) => {
     const d = value instanceof Date ? value : new Date(value);
     if (Number.isNaN(d.getTime())) return value;
