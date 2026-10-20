@@ -6,16 +6,14 @@
   "url": "https://thefluffynebula.github.io/MyWebsite/",
 
   "links": {
-    "resume": "",
+    "resume": "/Jason_Yin_resume_public.pdf",
     "github": "https://github.com/TheFluffyNebula",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/jason-yin-0a8a9728a/",
     "email": ""
   },
 
   "todos": {
-    "resume": "TODO: add a PUBLIC resume PDF at src/assets/Jason_Yin_Resume.pdf, then set links.resume to \"/assets/Jason_Yin_Resume.pdf\". Do NOT use private/Jason_Yin_resume.pdf — it has a phone number on it.",
-    "linkedin": "TODO: set links.linkedin to your LinkedIn profile URL.",
-    "email": "TODO: set links.email to the one email address you want public, e.g. \"mailto:you@example.com\".",
+    "email": "Intentionally blank. LinkedIn is the contact channel; no address is published anywhere on the site. To add one later, set links.email to \"mailto:...\" — prefer a separate account used only for this site.",
     "ogImage": "TODO: add a 1200x630 social preview image at src/assets/og-default.png."
   },
 

@@ -32,13 +32,11 @@ last_updated: 2026-10-20
         <span class="btn btn-todo">LinkedIn — TODO: add URL</span>
       {% endif %}
     </li>
-    <li>
-      {% if site.links.email %}
-        <a class="btn" href="{{ site.links.email }}">Email</a>
-      {% else %}
-        <span class="btn btn-todo">Email — TODO: add address</span>
-      {% endif %}
-    </li>
+    {# Email is intentionally omitted when blank rather than flagged as a TODO:
+       LinkedIn is the contact channel and no address is published. #}
+    {% if site.links.email %}
+      <li><a class="btn" href="{{ site.links.email }}">Email</a></li>
+    {% endif %}
   </ul>
 </section>
 
