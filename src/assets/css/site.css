@@ -301,6 +301,20 @@ main.wrap { padding-block: clamp(2rem, 1.2rem + 3vw, 3.5rem) 4rem; }
 
 .btn-sm { padding: 0.3rem 0.7rem; font-size: 0.875rem; font-weight: 500; }
 
+/* Placeholder for a link whose URL isn't filled in yet. Deliberately loud so
+   it can't ship unnoticed. Not a link - it's a span, so it isn't focusable. */
+.btn-todo {
+  border-style: dashed;
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 500;
+  cursor: default;
+}
+
+.see-all { margin-top: 1.5rem; font-weight: 600; }
+
+.publication { max-width: var(--measure); }
+
 .section { margin-top: 3.5rem; }
 .section > h2 { margin-bottom: 0.25rem; }
 .section-intro { color: var(--text-muted); margin-bottom: 1.5rem; max-width: var(--measure); }
