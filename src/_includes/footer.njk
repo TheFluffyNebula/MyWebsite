@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <p>
+      {% if last_updated %}
+        Last updated <time datetime="{{ last_updated }}">{{ last_updated | readableDate }}</time>.
+      {% endif %}
+      Built with <a href="https://www.11ty.dev/">Eleventy</a> and hosted on GitHub Pages.
+    </p>
+    <ul class="footer-links">
+      {% if site.links.github %}<li><a href="{{ site.links.github }}">GitHub</a></li>{% endif %}
+      {% if site.links.linkedin %}<li><a href="{{ site.links.linkedin }}">LinkedIn</a></li>{% endif %}
+      {% if site.links.email %}<li><a href="{{ site.links.email }}">Email</a></li>{% endif %}
+    </ul>
+  </div>
+</footer>

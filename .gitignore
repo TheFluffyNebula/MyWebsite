@@ -1,2 +1,5 @@
 private/
 CLAUDE.md
+node_modules/
+_site/
+.cache/

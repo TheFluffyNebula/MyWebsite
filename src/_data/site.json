@@ -1,0 +1,32 @@
+{
+  "name": "Jason Yin",
+  "pitch": "Computer science student at NC State who builds full-stack web applications, with research experience in continual learning for language models.",
+  "description": "Portfolio of Jason Yin — computer science student at NC State. Full-stack web applications, hackathon projects, and machine learning research.",
+
+  "url": "https://thefluffynebula.github.io/MyWebsite/",
+
+  "links": {
+    "resume": "",
+    "github": "https://github.com/TheFluffyNebula",
+    "linkedin": "",
+    "email": ""
+  },
+
+  "todos": {
+    "resume": "TODO: add a PUBLIC resume PDF at src/assets/Jason_Yin_Resume.pdf, then set links.resume to \"/assets/Jason_Yin_Resume.pdf\". Do NOT use private/Jason_Yin_resume.pdf — it has a phone number on it.",
+    "linkedin": "TODO: set links.linkedin to your LinkedIn profile URL.",
+    "email": "TODO: set links.email to the one email address you want public, e.g. \"mailto:you@example.com\".",
+    "ogImage": "TODO: add a 1200x630 social preview image at src/assets/og-default.png."
+  },
+
+  "ogImage": "/assets/og-default.png",
+
+  "publication": {
+    "title": "GEM-Style Constraints for PEFT with Dual Gradient Projection in LoRA",
+    "venue": "2025 IEEE International Conference on Data Mining Workshops (ICDMW)",
+    "pages": "pp. 2736–2743",
+    "authorNote": "second author",
+    "doi": "10.1109/ICDMW69685.2025.00350",
+    "doiUrl": "https://doi.org/10.1109/ICDMW69685.2025.00350"
+  }
+}

@@ -1,0 +1,47 @@
+{# Renders one project card. Link buttons appear only for fields that are filled in. #}
+{% macro card(p, url) %}
+<article class="card">
+  <a class="card-thumb" href="{{ ('/Projects/' + p.slug + '.html') | url }}" tabindex="-1" aria-hidden="true">
+    {% if p.thumb %}
+      <img src="{{ p.thumb | url }}" alt="" loading="lazy" decoding="async">
+    {% else %}
+      {# TODO: add a thumbnail for this project and set `thumb`/`thumb_alt` in projects.json. #}
+      <span class="card-thumb-placeholder">{{ p.title | truncate(2, true, "") }}</span>
+    {% endif %}
+  </a>
+
+  <div class="card-body">
+    <h3 class="card-title">
+      <a href="{{ ('/Projects/' + p.slug + '.html') | url }}">{{ p.title }}</a>
+    </h3>
+
+    <p class="card-meta">
+      <span class="card-date">{{ p.date }}</span>
+      {% if p.status %}<span class="card-status">{{ p.status }}</span>{% endif %}
+    </p>
+
+    <p class="card-summary">{{ p.summary }}</p>
+
+    {% if p.tags and p.tags.length %}
+      <ul class="tags" aria-label="Technologies used in {{ p.title }}">
+        {% for t in p.tags %}<li class="tag">{{ t }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+
+    <ul class="card-links">
+      {% if p.live_url %}
+        <li><a class="btn btn-sm" href="{{ p.live_url }}">Live<span class="visually-hidden"> demo of {{ p.title }}</span></a></li>
+      {% endif %}
+      {% if p.repo_url %}
+        <li><a class="btn btn-sm" href="{{ p.repo_url }}">Code<span class="visually-hidden"> repository for {{ p.title }}</span></a></li>
+      {% endif %}
+      {% if p.video_url %}
+        <li><a class="btn btn-sm" href="{{ p.video_url }}">Video<span class="visually-hidden"> of {{ p.title }}</span></a></li>
+      {% endif %}
+      {% if p.devpost_url %}
+        <li><a class="btn btn-sm" href="{{ p.devpost_url }}">Devpost<span class="visually-hidden"> page for {{ p.title }}</span></a></li>
+      {% endif %}
+    </ul>
+  </div>
+</article>
+{% endmacro %}

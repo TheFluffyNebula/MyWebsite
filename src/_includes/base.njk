@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+  <meta name="description" content="{{ description or site.description }}">
+
+  {% set ogUrl = (page.url | url) | absoluteUrl(site.url) %}
+  {% set ogImg = (ogImage or site.ogImage) | url | absoluteUrl(site.url) %}
+  <link rel="canonical" href="{{ ogUrl }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:url" content="{{ ogUrl }}">
+  <meta property="og:image" content="{{ ogImg }}">
+  <meta property="og:image:alt" content="{{ ogImageAlt or (site.name + ' — portfolio') }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}">
+
+  {# Runs before paint so the stored theme never flashes the wrong colours. #}
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") {
+          document.documentElement.setAttribute("data-theme", t);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  {% include "nav.njk" %}
+
+  <main id="main" class="wrap">
+    {{ content | safe }}
+  </main>
+
+  {% include "footer.njk" %}
+
+  <script src="{{ '/assets/js/theme.js' | url }}" defer></script>
+</body>
+</html>

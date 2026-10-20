@@ -1,0 +1,5 @@
+[
+  { "from": "/Navigation/Projects.html", "to": "/projects/" },
+  { "from": "/Navigation/Websites.html", "to": "/projects/" },
+  { "from": "/Navigation/Ongoing.html", "to": "/projects/" }
+]

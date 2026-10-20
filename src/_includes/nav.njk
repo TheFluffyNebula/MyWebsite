@@ -1,0 +1,33 @@
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Main">
+    <a class="nav-brand" href="{{ '/' | url }}">{{ site.name }}</a>
+
+    <ul class="nav-list">
+      <li><a href="{{ '/' | url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a></li>
+
+      <li>
+        {# <details> is keyboard-operable with no JS, unlike the old hover-only dropdown. #}
+        <details class="nav-disclosure">
+          <summary>Projects</summary>
+          <ul class="nav-menu">
+            <li><a href="{{ '/projects/' | url }}"><strong>All projects</strong></a></li>
+            {% for p in projects | byGroup("featured") %}
+              <li><a href="{{ ('/Projects/' + p.slug + '.html') | url }}">{{ p.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
+      </li>
+
+      <li><a href="{{ '/notes/' | url }}"{% if '/notes/' in page.url %} aria-current="page"{% endif %}>Notes</a></li>
+
+      {% if site.links.resume %}
+        <li><a href="{{ site.links.resume | url }}">Résumé</a></li>
+      {% endif %}
+    </ul>
+
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">
+      <span aria-hidden="true" class="theme-toggle-icon"></span>
+      <span class="visually-hidden">Switch between light and dark theme</span>
+    </button>
+  </nav>
+</header>
