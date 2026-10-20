@@ -3,6 +3,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("Images");
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
+  // public/ holds files cleared for publishing (the resume), mirroring
+  // private/ which is gitignored. Deliberately PDF-only rather than copying
+  // the whole folder: editable sources like base.docx live there too and must
+  // never reach the site. Drop a new file type in and it will NOT publish
+  // until you add it here on purpose.
+  eleventyConfig.addPassthroughCopy({ "public/*.pdf": "/" });
+
   // Projects look up their own metadata in projects.json by slug.
   eleventyConfig.addFilter("bySlug", (projects, slug) =>
     (projects || []).find((p) => p.slug === slug)

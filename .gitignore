@@ -3,3 +3,8 @@ CLAUDE.md
 node_modules/
 _site/
 .cache/
+
+# Editable resume sources. These must never be published or committed -
+# only the finished PDF in public/ goes to the site.
+public/*.docx
+public/*.doc
