@@ -428,6 +428,16 @@ main.wrap { padding-block: clamp(2rem, 1.2rem + 3vw, 3.5rem) 4rem; }
   margin-bottom: 0.3rem;
 }
 
+/* --------------------------------------------------------------- notes --- */
+
+.note-list { list-style: none; margin: 0; padding: 0; max-width: var(--measure); }
+.note-item {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.note-item:last-child { border-bottom: 0; }
+.note-title { font-size: 1.2rem; margin: 0 0 0.3rem; }
+
 /* --------------------------------------------------------------- empty --- */
 
 .empty-state {

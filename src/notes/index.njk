@@ -2,7 +2,36 @@
 layout: base.njk
 permalink: /notes/index.html
 title: Notes
+description: Write-ups and videos by Jason Yin — algorithm explainers and notes on things worth writing down.
 last_updated: 2026-10-20
 ---
 <h1>Notes</h1>
-<p class="empty-state">Nothing here yet.</p>
+<p class="section-intro">
+  Short write-ups and videos — algorithm explainers, and notes on problems worth writing down.
+</p>
+
+{% if notes and notes.length %}
+  <ul class="note-list">
+    {% for n in notes | newestFirst %}
+      <li class="note-item">
+        <h2 class="note-title">
+          {% if n.url %}<a href="{{ n.url | url }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}
+        </h2>
+        <p class="card-meta">
+          <span class="card-date">{{ n.date }}</span>
+          {% if n.kind %}<span class="card-status">{{ n.kind }}</span>{% endif %}
+        </p>
+        <p>{{ n.summary }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="empty-state">
+    Nothing published here yet — this is where write-ups and videos will go.
+  </p>
+{% endif %}
+
+<!-- TODO: write the first note. Add an entry to src/_data/notes.json:
+     { "title": "...", "date": "March 2026", "sort": "2026-03", "kind": "Write-up",
+       "summary": "...", "url": "/notes/my-note.html" }
+     then create src/notes/my-note.md with `permalink: /notes/my-note.html`. -->
