@@ -12,7 +12,7 @@ with one of the levels shown below. The goal is to collect all of the chips and 
 We were given a Java robot with some perceive methods and had to fill out a 'getAction' method returning an action
 like 'go up' or 'go right' on each iteration of the simulation.
 
-<p class="project-media"><img src="{{ '/Images/ChipChallenge/ChipChallenge.jpg' | url }}" alt="A Chip's Challenge level: the player character stands in the middle of a grid scattered with computer chips, coloured keys and matching locked doors, with a blue portal near the top and a counter reading &quot;Chips Remaining 10&quot;." loading="lazy"></p>
+<p class="project-media"><img src="{{ '/Images/ChipChallenge/ChipChallenge.jpg' | url }}" alt="A Chip's Challenge level: the player character stands in the middle of a grid scattered with computer chips, colored keys and matching locked doors, with a blue portal near the top and a counter reading &quot;Chips Remaining 10&quot;." loading="lazy"></p>
 
 The method used to tackle this problem is 'Planning'. When discovering an object (ex. a door) in the way of
 getting a chip, a new subtask is pushed onto a stack, and the robot recomputes the path to the new subtask (the key).

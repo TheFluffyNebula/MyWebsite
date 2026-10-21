@@ -6,6 +6,7 @@ last_updated: 2026-10-20
 {% from "card.njk" import card %}
 
 <section class="hero">
+  <div class="hero-text">
   <h1>{{ site.name }}</h1>
   <p class="hero-pitch">{{ site.pitch }}</p>
 
@@ -38,6 +39,11 @@ last_updated: 2026-10-20
       <li><a class="btn" href="{{ site.links.email }}">Email</a></li>
     {% endif %}
   </ul>
+  </div>
+
+  <img class="hero-photo" src="{{ '/Images/jason-hero.jpg' | url }}"
+       alt="Jason Yin in a blue rain poncho in front of Niagara Falls, with a tour boat on the water behind."
+       width="575" height="575" decoding="async">
 </section>
 
 <section class="section" aria-labelledby="featured-heading">
@@ -61,4 +67,30 @@ last_updated: 2026-10-20
     <em>{{ pub.venue }}</em>, {{ pub.pages }} ({{ pub.authorNote }}).
     <a href="{{ pub.doiUrl }}">doi:{{ pub.doi }}</a>
   </p>
+</section>
+
+<section class="section about" aria-labelledby="about-heading">
+  <div class="about-text">
+    <h2 id="about-heading">A bit more</h2>
+
+    <p>
+      Most of what I enjoy outside class ends up somewhere on this site — ten years of chasing
+      typing speed, a card game I rebuilt from scratch because the friends I met at a summer
+      research program wouldn't stop playing it, and a guide site for a game I was briefly
+      very good at.
+    </p>
+    <p>
+      Away from a keyboard I read a lot, though at no steady rate — it ranges from one book in
+      two months to two in a week, and I keep going back to The Dresden Files. I also run, hike
+      whenever I get the chance, and play a lot of games (Root is my favorite board game).
+      Competitive programming is technical, but I'd do it either way, so it goes here.
+    </p>
+  </div>
+
+  <figure class="about-figure">
+    <img src="{{ '/Images/cat-cafe.jpg' | url }}"
+         alt="Jason sitting at a cat cafe with a small white kitten perched on top of his head, both looking at the camera."
+         loading="lazy" decoding="async">
+    <figcaption>I'm allergic to most cats. I go anyway.</figcaption>
+  </figure>
 </section>

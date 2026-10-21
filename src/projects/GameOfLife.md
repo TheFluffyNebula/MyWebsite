@@ -25,7 +25,7 @@ Here are some screenshots of the program:
   <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife3.jpg' | url }}" alt="The How It Works screen, listing Conway's four survival and birth rules with a worked example beside each." loading="lazy"></li>
   <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife4.jpg' | url }}" alt="The user-controlled setup dialog, with inputs for grid length, percentage of cells alive, and number of generations." loading="lazy"></li>
   <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife5.jpg' | url }}" alt="A simulation running on a square grid, with black live cells scattered in small clusters across a white field." loading="lazy"></li>
-  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife6.jpg' | url }}" alt="The examples dialog over a running simulation, with three gliders circled and labelled on the grid behind it." loading="lazy"></li>
+  <li><img src="{{ '/Images/ConwayGameOfLife/ConwayGameOfLife6.jpg' | url }}" alt="The examples dialog over a running simulation, with three gliders circled and labeled on the grid behind it." loading="lazy"></li>
 </ul>
 
 And this is the moment the glider gun finally worked, 11 December 2022, reacted to in real time:

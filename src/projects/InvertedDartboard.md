@@ -22,7 +22,7 @@ skilled player simply aimed for a section of a board, they would achieve much be
 results on average. Thus, skill will always matter; some boards just show it more.
 
 <ul class="shots">
-  <li><img src="{{ '/Images/InvertedDartboard/InvertedDartboard1.jpg' | url }}" alt="The two dartboards side by side: Board A is a standard numbered board, Board B has plain concentric rings scoring 10 at the outside rising to 80 at the centre." loading="lazy"></li>
+  <li><img src="{{ '/Images/InvertedDartboard/InvertedDartboard1.jpg' | url }}" alt="The two dartboards side by side: Board A is a standard numbered board, Board B has plain concentric rings scoring 10 at the outside rising to 80 at the center." loading="lazy"></li>
   <li><img src="{{ '/Images/InvertedDartboard/InvertedDartboard2.jpg' | url }}" alt="A slide working out the doubles ring by hand: the double integral over the sector, its area, the resulting expected value and the probability of hitting a double." loading="lazy"></li>
   <li><img src="{{ '/Images/InvertedDartboard/InvertedDartboard3.jpg' | url }}" alt="Simulation results: a computer-drawn dartboard peppered with a thousand random throws, with five runs landing in a 58 to 61 range against a hand prediction of 59.121." loading="lazy"></li>
 </ul>

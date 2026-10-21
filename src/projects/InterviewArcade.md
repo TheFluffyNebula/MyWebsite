@@ -25,6 +25,6 @@ of my teammates.
   <li><img src="{{ '/Images/InterviewArcade/Intro.jpg' | url }}" alt="The welcome screen, reading &quot;Welcome to Interview Arcade!&quot; above Company, Random and Category buttons and a Confirm button." loading="lazy"></li>
   <li><img src="{{ '/Images/InterviewArcade/Select.jpg' | url }}" alt="A &quot;Select Company&quot; screen in neon arcade styling, offering a grid of sixteen company names to draw interview questions from." loading="lazy"></li>
   <li><img src="{{ '/Images/InterviewArcade/Interview.jpg' | url }}" alt="The interview screen: the problem &quot;Longest Substring Without Repeating Characters&quot; with examples and constraints on the left, a Python code editor on the right, and a five-minute countdown running." loading="lazy"></li>
-  <li><img src="{{ '/Images/InterviewArcade/Loading.jpg' | url }}" alt="A loading screen styled as a game of Breakout, with coloured brick rows, a ball and a paddle above the word &quot;LOADING&quot;." loading="lazy"></li>
+  <li><img src="{{ '/Images/InterviewArcade/Loading.jpg' | url }}" alt="A loading screen styled as a game of Breakout, with colored brick rows, a ball and a paddle above the word &quot;LOADING&quot;." loading="lazy"></li>
   <li><img src="{{ '/Images/InterviewArcade/Feedback.jpg' | url }}" alt="The feedback screen, with separate Code Review and Audio Review panels scoring the attempt out of ten and listing strengths and areas for improvement, plus an audio player and transcript of the spoken feedback." loading="lazy"></li>
 </ul>

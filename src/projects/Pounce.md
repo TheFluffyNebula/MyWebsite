@@ -65,7 +65,7 @@ are mid-game and after it's completed.
 I have mostly finished the frontend. Now I will start on the routes, socketry, and actual game logic to handle
 starting rounds, ending rounds, and ending the game.
 
-<p class="project-media"><img src="{{ '/Images/Pounce/Pounce1.jpg' | url }}" alt="The Pounce board, with several players' solitaire layouts of face-up and face-down cards arranged around a shared centre area of empty foundation slots." loading="lazy"></p>
+<p class="project-media"><img src="{{ '/Images/Pounce/Pounce1.jpg' | url }}" alt="The Pounce board, with several players' solitaire layouts of face-up and face-down cards arranged around a shared center area of empty foundation slots." loading="lazy"></p>
 </div>
 
 <div class="update">

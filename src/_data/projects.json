@@ -23,7 +23,7 @@
   {
     "slug": "CPort",
     "title": "C-PORT",
-    "summary": "Web-based analytics platform that optimises portfolios of offshore energy technologies across a stretch of coast, instead of assessing each technology in isolation.",
+    "summary": "Web-based analytics platform that optimizes portfolios of offshore energy technologies across a stretch of coast, instead of assessing each technology in isolation.",
     "date": "August 2025 – May 2026",
     "sort": "2026-05",
     "group": "featured",
@@ -44,7 +44,7 @@
   {
     "slug": "OutSource",
     "title": "OutSource",
-    "summary": "Weather-aware activity planning: live forecasts plus AI recommendations for when to get outside, with circles, friends and a shared schedule to organise it.",
+    "summary": "Weather-aware activity planning: live forecasts plus AI recommendations for when to get outside, with circles, friends and a shared schedule to organize it.",
     "date": "February 2026",
     "sort": "2026-02",
     "group": "featured",
@@ -97,7 +97,7 @@
       "Render"
     ],
     "thumb": "/Images/Pounce/Pounce1.jpg",
-    "thumb_alt": "The Pounce game board, with several players’ solitaire layouts of face-up and face-down cards arranged around a shared centre area.",
+    "thumb_alt": "The Pounce game board, with several players’ solitaire layouts of face-up and face-down cards arranged around a shared center area.",
     "status": "Deployed",
     "repo_url": "https://github.com/TheFluffyNebula/Pounce",
     "live_url": "https://pounce.onrender.com",
@@ -201,7 +201,7 @@
       "AI"
     ],
     "thumb": "/Images/ChipChallenge/ChipChallenge.jpg",
-    "thumb_alt": "The Chip’s Challenge grid, showing the player character surrounded by computer chips, coloured keys and locked doors, with \"Chips Remaining 10\" beside the board.",
+    "thumb_alt": "The Chip’s Challenge grid, showing the player character surrounded by computer chips, colored keys and locked doors, with \"Chips Remaining 10\" beside the board.",
     "status": "",
     "repo_url": "",
     "live_url": "",
@@ -258,7 +258,7 @@
       "Calculus"
     ],
     "thumb": "/Images/InvertedDartboard/InvertedDartboard1.jpg",
-    "thumb_alt": "Two dartboards side by side, labelled Board A and Board B. Board A is a standard numbered board; Board B has plain concentric rings scoring 10 at the outside up to 80 at the centre.",
+    "thumb_alt": "Two dartboards side by side, labeled Board A and Board B. Board A is a standard numbered board; Board B has plain concentric rings scoring 10 at the outside up to 80 at the center.",
     "status": "",
     "repo_url": "",
     "live_url": "",

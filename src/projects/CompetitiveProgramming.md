@@ -108,7 +108,7 @@ next rating goal on this site is 2150, which is where I think the guardian badge
 <p class="update-date">10/21/26 Update</p>
 
 AllSilver is the long game: solving every past USACO Silver problem, roughly 180 of them. I'm
-about halfway. I track it in a sheet, one column per contest, colour-coded by whether a problem
+about halfway. I track it in a sheet, one column per contest, color-coded by whether a problem
 is done, skipped, or worth coming back to — along with a note on what the problem needed, so the
 sheet doubles as a record of which techniques keep coming up.
 

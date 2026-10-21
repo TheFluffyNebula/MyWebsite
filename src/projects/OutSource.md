@@ -3,7 +3,7 @@ layout: project.njk
 slug: OutSource
 permalink: /Projects/OutSource.html
 title: OutSource
-description: Weather-aware activity planning — live forecasts and AI recommendations that tell you when to get outside, and a way to organise it with friends.
+description: Weather-aware activity planning — live forecasts and AI recommendations that tell you when to get outside, and a way to organize it with friends.
 last_updated: 2026-10-20
 ---
 

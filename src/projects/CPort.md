@@ -3,7 +3,7 @@ layout: project.njk
 slug: CPort
 permalink: /Projects/CPort.html
 title: C-PORT
-description: Web-based analytics platform for Coastal Portfolio Optimization of Resource Technologies — optimising combinations of offshore energy technologies for a selected stretch of coast.
+description: Web-based analytics platform for Coastal Portfolio Optimization of Resource Technologies — optimizing combinations of offshore energy technologies for a selected stretch of coast.
 last_updated: 2026-10-20
 ---
 
@@ -18,7 +18,7 @@ single-technology assessment to integrated, multi-technology design.
 
 You pick a domain along the coast and set constraints — transmission capacity and system radius,
 maximum depth, maximum distance from shore, an LCOE range and step size, which device types to
-consider and how densely to pack them, and the years to analyse. The platform combines multi-year
+consider and how densely to pack them, and the years to analyze. The platform combines multi-year
 geospatial resource datasets with technology, transmission cost and performance models, and
 returns the combinations of devices that do best under those constraints, plotted as an
 efficiency frontier against levelised cost of energy.
@@ -35,7 +35,7 @@ to three minutes, which changed how quickly we could iterate.
 
 The frontend is deployed at
 [portfolio-opt-app.vercel.app](https://portfolio-opt-app.vercel.app/). Fair warning: it's the
-interface only. Running an optimisation needs the Flask backend up and tunnelled through to it,
+interface only. Running an optimization needs the Flask backend up and tunneled through to it,
 and that isn't publicly hosted — which is what 70GB of resource data tends to do to your hosting
 options. So you can look around the inputs, but it won't compute anything for you.
 
