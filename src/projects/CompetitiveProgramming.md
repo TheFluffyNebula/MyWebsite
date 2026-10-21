@@ -18,13 +18,12 @@ standing: |
   <a href="https://github.com/TheFluffyNebula/AllSilver">AllSilver repo</a>
 </p>
 
-<!-- TODO: add a sentence describing what AllSilver is. From the tracking sheet it looks like
-     working through every past USACO Silver problem, but that's my inference, not your words -
-     please confirm or correct it rather than leaving mine. -->
+AllSilver is the long game: solving every past USACO Silver problem, roughly 180 of them. I'm
+about halfway. I track it in a sheet, one column per contest, colour-coded by whether a problem
+is done, skipped, or worth coming back to — along with a note on what the problem needed, so the
+sheet doubles as a record of which techniques keep coming up.
 
-<!-- TODO: the USACO progress spreadsheet screenshot hasn't been saved to the repo. Save it as
-     Images/CompetitiveProgramming/usaco-silver-progress.png and it can go next to the AllSilver
-     link. Check the sheet for anything you'd rather not publish before saving it. -->
+<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/usaco-silver-progress.png' | url }}" alt="The USACO Silver tracking sheet: a grid of contests from 2011 to 2019 with three problems each, most cells filled green for solved and annotated with the technique involved — BST template, sparse table, union find, lazy propagation — and a running total of 94 problems." loading="lazy"></p>
 
 My Competitive Programming (CP) journey has been quite rocky, but I
 am more motivated now than ever to improve and see how far I can go. So far,

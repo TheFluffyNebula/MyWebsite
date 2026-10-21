@@ -250,11 +250,21 @@ main.wrap { padding-block: clamp(2rem, 1.2rem + 3vw, 3.5rem) 4rem; }
 .prose { max-width: var(--measure); }
 .prose img, .project-media img { border-radius: var(--radius); border: 1px solid var(--border); }
 
-/* Figures and screenshots inside long pages sit outside the text measure. */
+/* A lone figure is usually narrower than the broken-out container it sits in,
+   so centre it - otherwise it hugs the left edge and reads as misaligned
+   against the centred text column above it. */
+.project-media { margin: 1.5rem 0 2rem; text-align: center; }
+.project-media img,
+.project-media video { display: inline-block; max-width: 100%; }
+
+/* Figures and screenshots inside long pages sit outside the text measure.
+   auto-FIT, not auto-fill: with auto-fill, a row of two images inside a
+   three-column grid leaves an empty track and the pair sits off to the left.
+   auto-fit collapses empty tracks so the images always fill the row. */
 .shots {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
   margin: 1.5rem 0 2rem;
   padding: 0;
   list-style: none;
