@@ -56,8 +56,8 @@
       "Docker",
       "AWS"
     ],
-    "thumb": "",
-    "thumb_alt": "",
+    "thumb": "/Images/OutSource/thumb.png",
+    "thumb_alt": "The OutSource home screen: an orange Current Forecast card reading 45 degrees and clear, above personal recommendations for a day hike and a park visit that both cite the sunny weather.",
     "status": "Built at Hack_NCState 2026",
     "repo_url": "",
     "live_url": "",

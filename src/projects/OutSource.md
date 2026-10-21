@@ -34,9 +34,12 @@ deployed that on AWS — ECS and Fargate running the containers, an Application 
 front, and RDS for the database. Architecting it that way inside a hackathon window was the point:
 we wanted something genuinely distributed rather than one box that happens to survive demo day.
 
-<!-- TODO: add screenshots. Save them into Images/OutSource/ and set `thumb` + `thumb_alt`
-     on the OutSource entry in src/_data/projects.json. The home screen (forecast card plus
-     recommendations) is the one that shows what the app does. -->
+<ul class="shots">
+  <li><img src="{{ '/Images/OutSource/Recommendations.png' | url }}" alt="The OutSource home screen. An orange Current Forecast card reads 45 degrees, clear, with a low around 45 and a north wind around 3 mph, followed by a Recommendations list: a Day Hike and a Park Visit and Picnic, each citing Wednesday or Thursday's sunny weather." loading="lazy"></li>
+  <li><img src="{{ '/Images/OutSource/Schedule.png' | url }}" alt="The My Schedule tab listing two upcoming events — a Morning Hike at the local trail on 20 February at 7am, and a group Weekend Run through the city on 15 February at 8am." loading="lazy"></li>
+  <li><img src="{{ '/Images/OutSource/Friends.png' | url }}" alt="The Friends tab with a search box, one incoming request shown with accept and decline buttons, an empty friends list, and one sent request marked Pending." loading="lazy"></li>
+  <li><img src="{{ '/Images/OutSource/Group.png' | url }}" alt="A group profile page for a public circle called Saturday Hikers, listing its three members above an Open Group Chat button." loading="lazy"></li>
+</ul>
 
 <!-- TODO: the AWS deployment is gone — the load balancer hostname no longer resolves, so
      there is no live demo to link. If you redeploy, set live_url on the OutSource entry. -->
