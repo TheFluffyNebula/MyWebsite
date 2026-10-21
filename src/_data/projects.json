@@ -44,14 +44,17 @@
   {
     "slug": "OutSource",
     "title": "OutSource",
-    "summary": "Containerized outdoors app with a Flutter frontend, deployed on AWS with a distributed, scalable architecture.",
+    "summary": "Weather-aware activity planning: live forecasts plus AI recommendations for when to get outside, with circles, friends and a shared schedule to organise it.",
     "date": "February 2026",
     "sort": "2026-02",
     "group": "featured",
     "tags": [
       "Flutter",
-      "AWS",
-      "Docker"
+      "FastAPI",
+      "MySQL",
+      "Gemini",
+      "Docker",
+      "AWS"
     ],
     "thumb": "",
     "thumb_alt": "",
