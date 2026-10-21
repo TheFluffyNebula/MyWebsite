@@ -38,7 +38,20 @@ last_updated: 2026-10-20
   </div>
 {% endif %}
 
-<!-- TODO: write the first note. Add an entry to src/_data/notes.json:
-     { "title": "...", "date": "March 2026", "sort": "2026-03", "kind": "Write-up",
-       "summary": "...", "url": "/notes/my-note.html" }
-     then create src/notes/my-note.md with `permalink: /notes/my-note.html`. -->
+<!-- Adding the first entry also puts the Notes tab back in the nav.
+
+     For a video, one entry in src/_data/notes.json is all it takes - the url
+     can point straight at YouTube, external links pass through untouched:
+
+       {
+         "title":   "5 Levels of Difference Array",
+         "date":    "October 2026",
+         "sort":    "2026-10",
+         "kind":    "Video",
+         "summary": "One sentence on what the video covers.",
+         "url":     "https://www.youtube.com/watch?v=..."
+       }
+
+     For a written note instead, set "kind": "Write-up" and
+     "url": "/notes/my-note.html", then create src/notes/my-note.md with
+     `permalink: /notes/my-note.html`. -->

@@ -18,7 +18,13 @@
         </details>
       </li>
 
-      <li><a href="{{ '/notes/' | url }}"{% if '/notes/' in page.url %} aria-current="page"{% endif %}>Notes</a></li>
+      {# Notes stays out of the nav until it has at least one entry - an empty
+         section reads as a dead end. Add a note to src/_data/notes.json and
+         the tab reappears on its own. The page itself stays reachable at
+         /notes/ either way, so the URL never breaks. #}
+      {% if notes and notes.length %}
+        <li><a href="{{ '/notes/' | url }}"{% if '/notes/' in page.url %} aria-current="page"{% endif %}>Notes</a></li>
+      {% endif %}
 
       {% if site.links.resume %}
         <li><a href="{{ site.links.resume | url }}">Résumé</a></li>
