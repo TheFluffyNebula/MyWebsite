@@ -46,11 +46,13 @@ undergraduate research poster. The poster — *Web-Based Analytics Platform for 
 Optimization of Resource Technologies (C-PORT)* — covers the background, the architecture and
 the user interface, alongside four co-authors from NC State.
 
-<!-- TODO: add the poster image. Save it as Images/CPort/poster.png (or .jpg), then set
-     `thumb` + `thumb_alt` on the CPort entry in src/_data/projects.json.
-     Publishing the author block, email included, is a deliberate decision - don't crop it.
-     A crop of the UI panel or the efficiency-frontier chart would make a better card
-     thumbnail than the full poster, which is too dense to read at card size. -->
+<p class="project-media">
+  <a href="{{ '/JasonNCROEP2026.pdf' | url }}">
+    <img src="{{ '/Images/CPort/poster.jpg' | url }}" alt="The C-PORT research poster. Panels cover the background and motivation for portfolio-based offshore energy planning, the aim, the software architecture, screenshots of the user interface, an efficiency-frontier chart plotting levelised cost of energy against average megawatts, a map of device deployment locations along the North Carolina coast, and short- and long-term future work." loading="lazy">
+  </a>
+</p>
+
+<p><a href="{{ '/JasonNCROEP2026.pdf' | url }}">Download the full poster (PDF)</a></p>
 
 {# live_url is deliberately left empty on the CPort entry: the Vercel deployment is
    frontend-only without the backend, so a "Live demo" button would promise more than it
