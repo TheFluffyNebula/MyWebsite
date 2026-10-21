@@ -1,0 +1,64 @@
+---
+layout: base.njk
+permalink: /index.html
+last_updated: 2026-10-20
+---
+{% from "card.njk" import card %}
+
+<section class="hero">
+  <h1>{{ site.name }}</h1>
+  <p class="hero-pitch">{{ site.pitch }}</p>
+
+  <ul class="btn-row">
+    {# Each button appears as a real link once its URL is set in src/_data/site.json. #}
+    <li>
+      {% if site.links.resume %}
+        <a class="btn btn-primary" href="{{ site.links.resume | url }}">Résumé (PDF)</a>
+      {% else %}
+        <span class="btn btn-todo">Résumé (PDF) — TODO: add URL</span>
+      {% endif %}
+    </li>
+    <li>
+      {% if site.links.github %}
+        <a class="btn" href="{{ site.links.github }}">GitHub</a>
+      {% else %}
+        <span class="btn btn-todo">GitHub — TODO: add URL</span>
+      {% endif %}
+    </li>
+    <li>
+      {% if site.links.linkedin %}
+        <a class="btn" href="{{ site.links.linkedin }}">LinkedIn</a>
+      {% else %}
+        <span class="btn btn-todo">LinkedIn — TODO: add URL</span>
+      {% endif %}
+    </li>
+    {# Email is intentionally omitted when blank rather than flagged as a TODO:
+       LinkedIn is the contact channel and no address is published. #}
+    {% if site.links.email %}
+      <li><a class="btn" href="{{ site.links.email }}">Email</a></li>
+    {% endif %}
+  </ul>
+</section>
+
+<section class="section" aria-labelledby="featured-heading">
+  <h2 id="featured-heading">Featured work</h2>
+  <p class="section-intro">A few things I've built recently.</p>
+
+  <ul class="card-grid">
+    {% for p in projects | byGroup("featured") %}
+      <li>{{ card(p) }}</li>
+    {% endfor %}
+  </ul>
+
+  <p class="see-all"><a href="{{ '/Projects/' | url }}">See all projects →</a></p>
+</section>
+
+<section class="section" aria-labelledby="publications-heading">
+  <h2 id="publications-heading">Publications</h2>
+  {% set pub = site.publication %}
+  <p class="publication">
+    “{{ pub.title }},”
+    <em>{{ pub.venue }}</em>, {{ pub.pages }} ({{ pub.authorNote }}).
+    <a href="{{ pub.doiUrl }}">doi:{{ pub.doi }}</a>
+  </p>
+</section>

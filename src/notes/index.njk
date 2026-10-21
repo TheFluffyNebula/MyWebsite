@@ -1,0 +1,57 @@
+---
+layout: base.njk
+permalink: /notes/index.html
+title: Notes
+description: Write-ups and videos by Jason Yin — algorithm explainers and notes on things worth writing down.
+last_updated: 2026-10-20
+---
+<h1>Notes</h1>
+<p class="page-status"><span class="card-status">In progress</span></p>
+<p class="section-intro">
+  Short write-ups and videos — algorithm explainers, and notes on problems worth writing down.
+</p>
+
+{% if notes and notes.length %}
+  <ul class="note-list">
+    {% for n in notes | newestFirst %}
+      <li class="note-item">
+        <h2 class="note-title">
+          {% if n.url %}<a href="{{ n.url | url }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}
+        </h2>
+        <p class="card-meta">
+          <span class="card-date">{{ n.date }}</span>
+          {% if n.kind %}<span class="card-status">{{ n.kind }}</span>{% endif %}
+        </p>
+        <p>{{ n.summary }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <div class="empty-state">
+    <p><strong>Nothing published here yet.</strong></p>
+    <p>
+      This section is set up and waiting on its first entry. The plan is algorithm explainers to
+      begin with — the kind of thing where writing it down is the point, and a short video does
+      more than a paragraph.
+    </p>
+    <p>In the meantime, the <a href="{{ '/Projects/' | url }}">projects</a> have the write-ups.</p>
+  </div>
+{% endif %}
+
+<!-- Adding the first entry also puts the Notes tab back in the nav.
+
+     For a video, one entry in src/_data/notes.json is all it takes - the url
+     can point straight at YouTube, external links pass through untouched:
+
+       {
+         "title":   "5 Levels of Difference Array",
+         "date":    "October 2026",
+         "sort":    "2026-10",
+         "kind":    "Video",
+         "summary": "One sentence on what the video covers.",
+         "url":     "https://www.youtube.com/watch?v=..."
+       }
+
+     For a written note instead, set "kind": "Write-up" and
+     "url": "/notes/my-note.html", then create src/notes/my-note.md with
+     `permalink: /notes/my-note.html`. -->

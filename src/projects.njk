@@ -1,0 +1,45 @@
+---
+layout: base.njk
+permalink: /Projects/index.html
+title: Projects
+description: Projects by Jason Yin — web applications, hackathon builds, research tools and earlier coursework.
+last_updated: 2026-10-20
+---
+{% from "card.njk" import card %}
+
+<h1>Projects</h1>
+<p class="section-intro">
+  Everything I've put on this site, newest first within each group. Each card links to a
+  longer write-up.
+</p>
+
+<section class="section" aria-labelledby="featured-heading">
+  <h2 id="featured-heading">Featured</h2>
+  <ul class="card-grid">
+    {% for p in projects | byGroup("featured") | newestFirst %}
+      <li>{{ card(p) }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section" aria-labelledby="more-heading">
+  <h2 id="more-heading">More projects</h2>
+  <ul class="card-grid">
+    {% for p in projects | byGroup("more") | newestFirst %}
+      <li>{{ card(p) }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section" aria-labelledby="earlier-heading">
+  <h2 id="earlier-heading">Earlier work</h2>
+  <p class="section-intro">
+    High school and early university projects. Kept because the problems were fun, not because
+    the code is current.
+  </p>
+  <ul class="card-grid">
+    {% for p in projects | byGroup("earlier") | newestFirst %}
+      <li>{{ card(p) }}</li>
+    {% endfor %}
+  </ul>
+</section>

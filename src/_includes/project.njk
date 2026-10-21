@@ -1,0 +1,50 @@
+---
+layout: base.njk
+---
+{% set p = projects | bySlug(slug) %}
+
+<article class="project">
+  <header class="project-header">
+    <p class="breadcrumb"><a href="{{ '/Projects/' | url }}">← All projects</a></p>
+    <h1>{{ p.title if p else title }}</h1>
+
+    {% if p %}
+      <p class="project-meta">
+        <span class="card-date">{{ p.date }}</span>
+        {% if p.status %}<span class="card-status">{{ p.status }}</span>{% endif %}
+      </p>
+
+      <p class="project-summary">{{ p.summary }}</p>
+
+      {% if p.tags and p.tags.length %}
+        <ul class="tags" aria-label="Technologies used">
+          {% for t in p.tags %}<li class="tag">{{ t }}</li>{% endfor %}
+        </ul>
+      {% endif %}
+
+      <ul class="card-links project-links">
+        {% if p.live_url %}<li><a class="btn" href="{{ p.live_url }}">Live demo</a></li>{% endif %}
+        {% if p.repos and p.repos.length %}
+          {% for r in p.repos %}
+            <li><a class="btn" href="{{ r.url }}">{{ r.label }} repo</a></li>
+          {% endfor %}
+        {% elif p.repo_url %}
+          <li><a class="btn" href="{{ p.repo_url }}">Source code</a></li>
+        {% endif %}
+        {% if p.video_url %}<li><a class="btn" href="{{ p.video_url }}">Watch video</a></li>{% endif %}
+        {% if p.devpost_url %}<li><a class="btn" href="{{ p.devpost_url }}">Devpost</a></li>{% endif %}
+      </ul>
+    {% endif %}
+  </header>
+
+  {% if standing %}
+    <aside class="callout callout-status" aria-label="Current status">
+      <h2 class="callout-title">Where this stands now</h2>
+      {{ standing | safe }}
+    </aside>
+  {% endif %}
+
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+</article>

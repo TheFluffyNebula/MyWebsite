@@ -1,0 +1,286 @@
+[
+  {
+    "slug": "InterviewArcade",
+    "title": "Interview Arcade",
+    "summary": "Technical interview practice tool that takes code and audio input, evaluates both, and returns spoken feedback.",
+    "date": "October 2025",
+    "sort": "2025-10",
+    "group": "featured",
+    "tags": [
+      "React",
+      "FastAPI",
+      "Gemini",
+      "ElevenLabs"
+    ],
+    "thumb": "/Images/InterviewArcade/Intro.jpg",
+    "thumb_alt": "The Interview Arcade welcome screen, reading \"Welcome to Interview Arcade!\" above Company, Random and Category buttons and a Confirm button.",
+    "status": "1st place, General Track — HackNC 2025",
+    "devpost_url": "https://devpost.com/software/interview-arcade",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": "https://www.youtube.com/shorts/iDLfkx3CNak"
+  },
+  {
+    "slug": "CPort",
+    "title": "C-PORT",
+    "summary": "Web-based analytics platform that optimises portfolios of offshore energy technologies across a stretch of coast, instead of assessing each technology in isolation.",
+    "date": "August 2025 – May 2026",
+    "sort": "2026-05",
+    "group": "featured",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Flask",
+      "Docker",
+      "Vercel"
+    ],
+    "thumb": "/Images/CPort/ui.png",
+    "thumb_alt": "The C-PORT web interface: a Portfolio Optimization panel with resource upload and a North Carolina location preset, beside a Technicals panel of transmission, depth, distance and cost-of-energy inputs.",
+    "status": "1st place, undergraduate research poster — NCROEP Symposium",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
+    "slug": "OutSource",
+    "title": "OutSource",
+    "summary": "Weather-aware activity planning: live forecasts plus AI recommendations for when to get outside, with circles, friends and a shared schedule to organise it.",
+    "date": "February 2026",
+    "sort": "2026-02",
+    "group": "featured",
+    "tags": [
+      "Flutter",
+      "FastAPI",
+      "MySQL",
+      "Gemini",
+      "Docker",
+      "AWS"
+    ],
+    "thumb": "/Images/OutSource/thumb.png",
+    "thumb_alt": "The OutSource home screen: an orange Current Forecast card reading 45 degrees and clear, above personal recommendations for a day hike and a park visit that both cite the sunny weather.",
+    "status": "Built at Hack_NCState 2026",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
+    "slug": "SLCCE",
+    "title": "SLCCE Workshop Platform",
+    "summary": "Hosting platform that lets students run interactive computing lessons in the browser, built for an NC State volunteer organization teaching middle and high school students.",
+    "date": "October 2024 – Present",
+    "sort": "2026-10",
+    "group": "featured",
+    "tags": [
+      "Python",
+      "Jupyter",
+      "Pyodide",
+      "Azure"
+    ],
+    "thumb": "/Images/SLCCE/thumb.png",
+    "thumb_alt": "The workshop platform's home page: a teal banner reading \"Learn to code, right in your browser\", with buttons to browse workshops or start with a how-to guide.",
+    "status": "In progress",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
+    "slug": "Pounce",
+    "title": "Pounce",
+    "summary": "Multiplayer solitaire as a real-time web app, built in four staged sub-projects over roughly a year.",
+    "date": "July 2024 – August 2025",
+    "sort": "2025-08",
+    "group": "more",
+    "tags": [
+      "React",
+      "Express",
+      "Socket.IO",
+      "Render"
+    ],
+    "thumb": "/Images/Pounce/Pounce1.jpg",
+    "thumb_alt": "The Pounce game board, with several players’ solitaire layouts of face-up and face-down cards arranged around a shared centre area.",
+    "status": "Deployed",
+    "repo_url": "https://github.com/TheFluffyNebula/Pounce",
+    "live_url": "https://pounce.onrender.com",
+    "video_url": ""
+  },
+  {
+    "slug": "CompetitiveProgramming",
+    "title": "Competitive Programming",
+    "summary": "An ongoing record of contests, ratings and the problem-solving techniques picked up along the way.",
+    "date": "~2019 – Present",
+    "sort": "2025-04",
+    "group": "more",
+    "tags": [
+      "Python",
+      "C++",
+      "Algorithms",
+      "USACO",
+      "Contests"
+    ],
+    "thumb": "/Images/CompetitiveProgramming/LeetCode2000.jpg",
+    "thumb_alt": "A LeetCode profile page showing a contest rating of 2,013 at Knight level, in the top 2.47% globally.",
+    "status": "Ongoing",
+    "live_url": "",
+    "video_url": "",
+    "repos": [
+      {
+        "label": "CSES",
+        "url": "https://github.com/TheFluffyNebula/CSES"
+      },
+      {
+        "label": "AllSilver",
+        "url": "https://github.com/TheFluffyNebula/AllSilver"
+      }
+    ]
+  },
+  {
+    "slug": "Typing",
+    "title": "Typing",
+    "summary": "Ten years of chasing two typing goals — 200 wpm over 15 seconds and 180 wpm over 60 — and finally hitting both.",
+    "date": "2014 – 2025",
+    "sort": "2025-04",
+    "group": "more",
+    "tags": [
+      "Practice",
+      "Monkeytype"
+    ],
+    "thumb": "/Images/Typing/Typing_15s_3.png",
+    "thumb_alt": "A Monkeytype result screen: 208 words per minute at 96% accuracy on a 15-second English test.",
+    "status": "Goals met",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
+    "slug": "TheWritePlace",
+    "title": "The Write Place",
+    "summary": "Android app and companion website where students upload essays, exchange feedback and search by tag.",
+    "date": "June – October 2022",
+    "sort": "2022-10",
+    "group": "more",
+    "tags": [
+      "Firebase",
+      "webpack",
+      "Android"
+    ],
+    "thumb": "/Images/TheWritePlace/TheWritePlace1.jpg",
+    "thumb_alt": "The Write Place logo, a pencil drawn inside a house outline, beside the sign-in form with email, username and password fields.",
+    "status": "3rd place — Ready, Set, App! Contest",
+    "repo_url": "https://github.com/TheFluffyNebula/The-Write-Place-Web-v1",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
+    "slug": "BBGW",
+    "title": "Builder Base Guide Website",
+    "summary": "A self-directed static guide site for a Clash of Clans game mode, written for friends to use.",
+    "date": "August – December 2022",
+    "sort": "2022-12",
+    "group": "earlier",
+    "tags": [
+      "HTML",
+      "CSS"
+    ],
+    "thumb": "/Images/BBGW/BBGW1.jpg",
+    "thumb_alt": "A Clash of Clans Builder Base profile screen showing 5000 trophies, an all-time best of 7091, and a best tournament finish of 36th in the April 2022 season.",
+    "status": "",
+    "repo_url": "https://github.com/TheFluffyNebula/Builder-Base-Guide-Website",
+    "live_url": "https://thefluffynebula.github.io/Builder-Base-Guide-Website/MainPage.html",
+    "video_url": ""
+  },
+  {
+    "slug": "ChipsChallenge",
+    "title": "Chip's Challenge",
+    "summary": "A planning agent that collects every chip and reaches the portal using a subtask stack and A* search.",
+    "date": "April 2025",
+    "sort": "2025-04",
+    "group": "more",
+    "tags": [
+      "Java",
+      "A*",
+      "AI"
+    ],
+    "thumb": "/Images/ChipChallenge/ChipChallenge.jpg",
+    "thumb_alt": "The Chip’s Challenge grid, showing the player character surrounded by computer chips, coloured keys and locked doors, with \"Chips Remaining 10\" beside the board.",
+    "status": "",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
+    "slug": "TenXEscape",
+    "title": "10x Escape",
+    "summary": "A JavaFX puzzle game inspired by 40x Escape, with faithful level recreations and original puzzles.",
+    "date": "May 2023",
+    "sort": "2023-05",
+    "group": "earlier",
+    "tags": [
+      "Java",
+      "JavaFX",
+      "Maven"
+    ],
+    "thumb": "/Images/TenXEscape/TenXEscape5.jpg",
+    "thumb_alt": "A 10x Escape puzzle level on a teal background, with a black panel, a row of lettered buttons and the caption \"Level 10\".",
+    "status": "",
+    "repo_url": "https://github.com/TheFluffyNebula/escapefx",
+    "live_url": "",
+    "video_url": "https://youtu.be/UrSLGfYiTCo"
+  },
+  {
+    "slug": "GameOfLife",
+    "title": "Conway's Game of Life",
+    "summary": "A Java GUI for Conway's Game of Life with preset and custom configurations, including a hand-rebuilt glider gun.",
+    "date": "November – December 2022",
+    "sort": "2022-12",
+    "group": "earlier",
+    "tags": [
+      "Java",
+      "Maven",
+      "GUI"
+    ],
+    "thumb": "/Images/ConwayGameOfLife/ConwayGameOfLife5.jpg",
+    "thumb_alt": "A Game of Life grid mid-simulation, filled with scattered black live cells in small clusters.",
+    "status": "",
+    "repo_url": "https://github.com/TheFluffyNebula/gameoflife_maven",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
+    "slug": "InvertedDartboard",
+    "title": "Inverted Dartboard",
+    "summary": "Computed the expected value of a dart throw on an inverted board by hand, then checked it against a Monte Carlo simulation.",
+    "date": "December 2021",
+    "sort": "2021-12",
+    "group": "earlier",
+    "tags": [
+      "Python",
+      "Monte Carlo",
+      "Calculus"
+    ],
+    "thumb": "/Images/InvertedDartboard/InvertedDartboard1.jpg",
+    "thumb_alt": "Two dartboards side by side, labelled Board A and Board B. Board A is a standard numbered board; Board B has plain concentric rings scoring 10 at the outside up to 80 at the centre.",
+    "status": "",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
+    "slug": "CovidSimulation",
+    "title": "Covid Simulation",
+    "summary": "A Python Turtle epidemic model with flu and plague modes, distance-based transmission and a matplotlib summary.",
+    "date": "August – September 2021",
+    "sort": "2021-09",
+    "group": "earlier",
+    "tags": [
+      "Python",
+      "Turtle",
+      "matplotlib"
+    ],
+    "thumb": "/Images/CovidSimulation/CovidSim1.jpg",
+    "thumb_alt": "The simulation running in a Python Turtle window, a grid of green, yellow and red circles at week 20, beside a matplotlib graph of infected and dead percentages over time.",
+    "status": "",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": ""
+  }
+]
