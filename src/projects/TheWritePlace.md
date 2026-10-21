@@ -33,7 +33,7 @@ on essays. They can also query based on tags. There's a review, upload, and feed
 The authentication and database are done through firebase.
 I hope to learn enough about cybersecurity to go back one day and make it secure enough for schools to use.
 
-<p class="project-media"><img src="{{ '/Images/TheWritePlace/TheWritePlace1.jpg' | url }}" alt="The Write Place logo, a pencil drawn inside a house outline, beside the sign-in form with email, username and password fields and a summary of the review and feedback cycles." loading="lazy"></p>
-
-<!-- TODO: if you want a database screenshot here, take a fresh one against dummy data. The
-     previous one was removed - see the handover notes. -->
+<ul class="shots">
+  <li><img src="{{ '/Images/TheWritePlace/TheWritePlace1.jpg' | url }}" alt="The Write Place logo, a pencil drawn inside a house outline, beside the sign-in form with email, username and password fields and a summary of the review and feedback cycles." loading="lazy"></li>
+  <li><img src="{{ '/Images/TheWritePlace/TheWritePlace2.jpg' | url }}" alt="The Firebase console showing the app's Firestore database: a collection of uploaded test essays on the left, with one document's fields open on the right — completion flag, date, reviewer, submitter and tag." loading="lazy"></li>
+</ul>
