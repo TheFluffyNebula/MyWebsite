@@ -341,9 +341,15 @@ main.wrap { padding-block: clamp(2rem, 1.2rem + 3vw, 3.5rem) 4rem; }
   padding: 0;
 }
 
+/* The <li> grid items stretch to the tallest card in the row, but the card
+   inside only sizes to its own content - which is what left the bottoms
+   ragged. Make the list item a flex container and the card fill it. */
+.card-grid > li { display: flex; }
+
 .card {
   display: flex;
   flex-direction: column;
+  flex: 1;
   background: var(--bg-raised);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -521,3 +527,7 @@ main.wrap { padding-block: clamp(2rem, 1.2rem + 3vw, 3.5rem) 4rem; }
 }
 
 .repo-row { font-weight: 600; margin-bottom: 1.5rem; }
+
+.page-status { text-align: center; margin: -0.5rem 0 1.25rem; }
+.empty-state > :last-child { margin-bottom: 0; }
+.empty-state p { max-width: 34rem; margin-inline: auto; }
