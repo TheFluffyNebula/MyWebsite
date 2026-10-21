@@ -51,9 +51,11 @@ last_updated: 2026-10-20
   <p class="section-intro">A few things I've built recently.</p>
 
   <ul class="card-grid">
-    {# Same ordering as the projects index - newest first - so a visitor
-       doesn't meet the four featured projects in two different orders. #}
-    {% for p in projects | byGroup("featured") | newestFirst %}
+    {# Featured order is deliberate, not chronological: it follows the resume,
+       leading with the strongest credential. It comes from the order of the
+       entries in projects.json, and the nav and projects index read the same
+       list, so all three stay in step. #}
+    {% for p in projects | byGroup("featured") %}
       <li>{{ card(p) }}</li>
     {% endfor %}
   </ul>

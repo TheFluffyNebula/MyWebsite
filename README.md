@@ -51,8 +51,11 @@ featured.
 | Field | What it does |
 | --- | --- |
 | `slug` | Identifier. The page lives at `/Projects/<slug>.html`. |
-| `sort` | Sort key, newest first. `YYYY-MM` — it is not displayed. |
+| `sort` | Sort key, `YYYY-MM`, never displayed. Orders the **More projects** and **Earlier work** sections, newest first. |
 | `group` | `featured` (home page + nav), `more`, or `earlier` (the "Earlier work" section). |
+
+**Ordering.** `more` and `earlier` sort themselves by `sort`, newest first. **`featured` does not** — it appears in the order the entries sit in `projects.json`, so the lead card is a deliberate choice rather than whichever project is newest. Move an entry up or down in the file to reorder it; the home page, the projects index and the nav dropdown all read that same order.
+
 | `thumb` / `thumb_alt` | Card image and its alt text. Leave `thumb` empty for a placeholder tile. |
 | `status` | Optional pill next to the date, e.g. a placing or "In progress". |
 | `live_url`, `repo_url`, `video_url`, `devpost_url` | **Optional.** A button appears only for the ones you fill in. Leave the rest as `""`. |

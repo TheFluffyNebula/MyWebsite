@@ -9,14 +9,13 @@ last_updated: 2026-10-20
 
 <h1>Projects</h1>
 <p class="section-intro">
-  Everything I've put on this site, newest first within each group. Each card links to a
-  longer write-up.
+  Everything I've put on this site. Each card links to a longer write-up.
 </p>
 
 <section class="section" aria-labelledby="featured-heading">
   <h2 id="featured-heading">Featured</h2>
   <ul class="card-grid">
-    {% for p in projects | byGroup("featured") | newestFirst %}
+    {% for p in projects | byGroup("featured") %}
       <li>{{ card(p) }}</li>
     {% endfor %}
   </ul>

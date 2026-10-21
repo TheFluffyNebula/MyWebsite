@@ -21,6 +21,26 @@
     "video_url": "https://www.youtube.com/shorts/iDLfkx3CNak"
   },
   {
+    "slug": "SLCCE",
+    "title": "SLCCE Workshop Platform",
+    "summary": "Hosting platform that lets students run interactive computing lessons in the browser, built for an NC State volunteer organization teaching middle and high school students.",
+    "date": "October 2024 – Present",
+    "sort": "2026-10",
+    "group": "featured",
+    "tags": [
+      "Python",
+      "Jupyter",
+      "Pyodide",
+      "Azure"
+    ],
+    "thumb": "/Images/SLCCE/thumb.png",
+    "thumb_alt": "The workshop platform's home page: a teal banner reading \"Learn to code, right in your browser\", with buttons to browse workshops or start with a how-to guide.",
+    "status": "In progress",
+    "repo_url": "",
+    "live_url": "",
+    "video_url": ""
+  },
+  {
     "slug": "CPort",
     "title": "C-PORT",
     "summary": "Web-based analytics platform that optimizes portfolios of offshore energy technologies across a stretch of coast, instead of assessing each technology in isolation.",
@@ -59,26 +79,6 @@
     "thumb": "/Images/OutSource/thumb.png",
     "thumb_alt": "The OutSource home screen: an orange Current Forecast card reading 45 degrees and clear, above personal recommendations for a day hike and a park visit that both cite the sunny weather.",
     "status": "Built at Hack_NCState 2026",
-    "repo_url": "",
-    "live_url": "",
-    "video_url": ""
-  },
-  {
-    "slug": "SLCCE",
-    "title": "SLCCE Workshop Platform",
-    "summary": "Hosting platform that lets students run interactive computing lessons in the browser, built for an NC State volunteer organization teaching middle and high school students.",
-    "date": "October 2024 – Present",
-    "sort": "2026-10",
-    "group": "featured",
-    "tags": [
-      "Python",
-      "Jupyter",
-      "Pyodide",
-      "Azure"
-    ],
-    "thumb": "/Images/SLCCE/thumb.png",
-    "thumb_alt": "The workshop platform's home page: a teal banner reading \"Learn to code, right in your browser\", with buttons to browse workshops or start with a how-to guide.",
-    "status": "In progress",
     "repo_url": "",
     "live_url": "",
     "video_url": ""
