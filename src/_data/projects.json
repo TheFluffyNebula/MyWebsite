@@ -22,15 +22,17 @@
   },
   {
     "slug": "CPort",
-    "title": "C-Port",
-    "summary": "Full-stack web app that combines multi-year geospatial ocean resource data with device specifications to surface promising offshore energy technology combinations for a selected area.",
+    "title": "C-PORT",
+    "summary": "Web-based analytics platform that optimises portfolios of offshore energy technologies across a stretch of coast, instead of assessing each technology in isolation.",
     "date": "August 2025 – May 2026",
     "sort": "2026-05",
     "group": "featured",
     "tags": [
-      "Full-stack",
-      "Geospatial",
-      "Docker"
+      "Next.js",
+      "TypeScript",
+      "Flask",
+      "Docker",
+      "Vercel"
     ],
     "thumb": "",
     "thumb_alt": "",
