@@ -1,8 +1,8 @@
 ---
 layout: project.njk
-slug: NCROEP
-permalink: /Projects/NCROEP.html
-title: Offshore Energy Siting Tool
+slug: CPort
+permalink: /Projects/CPort.html
+title: C-Port
 description: Full-stack web app that pairs multi-year geospatial ocean resource data with device specifications to surface promising offshore energy technology combinations.
 last_updated: 2026-10-20
 ---
@@ -24,5 +24,5 @@ The work won 1st place for undergraduate research poster at the NCROEP Symposium
 <!-- TODO: add screenshots of the application. No images for this project exist in the repo yet.
      Remember to confirm nothing in a screenshot is program-internal before adding it. -->
 
-<!-- TODO: if a public repo or demo exists, add repo_url / live_url to the NCROEP entry in
+<!-- TODO: if a public repo or demo exists, add repo_url / live_url to the CPort entry in
      src/_data/projects.json and the buttons will appear automatically. -->

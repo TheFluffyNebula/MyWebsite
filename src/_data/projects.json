@@ -21,8 +21,8 @@
     "video_url": ""
   },
   {
-    "slug": "NCROEP",
-    "title": "Offshore Energy Siting Tool",
+    "slug": "CPort",
+    "title": "C-Port",
     "summary": "Full-stack web app that combines multi-year geospatial ocean resource data with device specifications to surface promising offshore energy technology combinations for a selected area.",
     "date": "August 2025 – May 2026",
     "sort": "2026-05",

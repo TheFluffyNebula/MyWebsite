@@ -5,8 +5,13 @@
     {% if p.thumb %}
       <img src="{{ p.thumb | url }}" alt="" loading="lazy" decoding="async">
     {% else %}
-      {# TODO: add a thumbnail for this project and set `thumb`/`thumb_alt` in projects.json. #}
-      <span class="card-thumb-placeholder">{{ p.title | truncate(2, true, "") }}</span>
+      {# No screenshot yet: show a typographic title card rather than an empty
+         tile. Add `thumb`/`thumb_alt` in projects.json to replace it. #}
+      <span class="card-thumb-placeholder">
+        <span class="card-thumb-prompt" aria-hidden="true">&gt;</span>
+        <span class="card-thumb-name">{{ p.title }}</span>
+        <span class="card-thumb-caret" aria-hidden="true"></span>
+      </span>
     {% endif %}
   </a>
 
