@@ -7,16 +7,14 @@ description: Android app and companion website where students upload essays, exc
 last_updated: 2026-10-20
 ---
 
-<aside class="callout callout-warning">
-  <h2 class="callout-title">Before you try the demo</h2>
+<aside class="callout">
+  <h2 class="callout-title">Note</h2>
   <p>
-    This was a school project from 2022 and it was never hardened. Authentication and storage are
-    wide open by today's standards. Please don't enter a real password or upload anything you
-    wouldn't post publicly.
+    There's no live demo here on purpose. This was a 2022 school project and it was never
+    hardened — the authentication and storage are wide open by today's standards — so pointing
+    people at a running copy that still accepts sign-ups didn't seem right. The source is still
+    up if you want to see how it worked.
   </p>
-  <!-- TODO: consider taking the live demo link down altogether. It's a Firebase app with weak auth
-       still accepting sign-ups. If you'd rather remove it, clear live_url on the TheWritePlace
-       entry in src/_data/projects.json and the button disappears. -->
 </aside>
 
 This is by far and away the largest project I've ever been a part of.
