@@ -34,5 +34,11 @@ The reason for the progress tracking is practical: it lets a teacher see which s
 lessons to building something of their own, and it lets us reach more students than we can fit into an in-person
 workshop.
 
-<!-- TODO: add a screenshot of the platform once Tier 3 is far enough along, or a shot of a Tier 2
-     browser-based lesson. Per the repo rules, no student faces and no student names in any screenshot. -->
+Here's Tier 2 as it stands — the workshop list, and a lesson running Python in the browser with no
+install and no account:
+
+<ul class="shots">
+  <li><img src="{{ '/Images/SLCCE/csc-website-home.png' | url }}" alt="The platform home page: a teal banner reading &quot;Learn to code, right in your browser&quot;, explaining that the Python workshops are free, self-guided and need no installs or accounts, with buttons to browse workshops or start with a how-to guide." loading="lazy"></li>
+  <li><img src="{{ '/Images/SLCCE/csc-website-workshops.png' | url }}" alt="The workshops index, explaining that the four workshops build on each other in order. Workshop 1, Welcome to Computing, is marked Ready and lists its lessons — Welcome to SLCCE, Intro to Python, Print and Hello World — each with a &quot;Try it in your browser&quot; button." loading="lazy"></li>
+  <li><img src="{{ '/Images/SLCCE/csc-website-workshop-success.png' | url }}" alt="A lesson in progress: a worked example printing the name of the university, then an exercise asking the learner to print their own name. Below the Run button the output appears, followed by a green confirmation reading &quot;You completed the exercise!&quot;" loading="lazy"></li>
+</ul>

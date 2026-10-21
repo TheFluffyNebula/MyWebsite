@@ -76,8 +76,8 @@
       "Pyodide",
       "Azure"
     ],
-    "thumb": "",
-    "thumb_alt": "",
+    "thumb": "/Images/SLCCE/thumb.png",
+    "thumb_alt": "The workshop platform's home page: a teal banner reading \"Learn to code, right in your browser\", with buttons to browse workshops or start with a how-to guide.",
     "status": "In progress",
     "repo_url": "",
     "live_url": "",
@@ -113,6 +113,7 @@
     "tags": [
       "C++",
       "Algorithms",
+      "USACO",
       "Contests"
     ],
     "thumb": "/Images/CompetitiveProgramming/LeetCode2000.jpg",

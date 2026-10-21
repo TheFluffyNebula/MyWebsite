@@ -13,6 +13,19 @@ standing: |
        (current Codeforces / LeetCode ratings, what you're training for). --></p>
 ---
 
+<p class="repo-row">
+  <a href="https://github.com/TheFluffyNebula/CSES">CSES repo</a> ·
+  <a href="https://github.com/TheFluffyNebula/AllSilver">AllSilver repo</a>
+</p>
+
+<!-- TODO: add a sentence describing what AllSilver is. From the tracking sheet it looks like
+     working through every past USACO Silver problem, but that's my inference, not your words -
+     please confirm or correct it rather than leaving mine. -->
+
+<!-- TODO: the USACO progress spreadsheet screenshot hasn't been saved to the repo. Save it as
+     Images/CompetitiveProgramming/usaco-silver-progress.png and it can go next to the AllSilver
+     link. Check the sheet for anything you'd rather not publish before saving it. -->
+
 My Competitive Programming (CP) journey has been quite rocky, but I
 am more motivated now than ever to improve and see how far I can go. So far,
 my biggest accomplishment has been a USA Computing Olympiad (USACO) Bronze pass in
