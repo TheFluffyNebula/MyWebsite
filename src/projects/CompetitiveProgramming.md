@@ -6,11 +6,11 @@ title: Competitive Programming
 description: An ongoing record of contests, ratings and the problem-solving techniques picked up along the way.
 last_updated: 2026-10-21
 standing: |
-  <p>This page is a running journal, and the entries below are kept as they were written — the
-  opening paragraph dates from September 2023, so its goals and ratings were overtaken by the
-  updates that follow it.</p>
-  <p><!-- TODO: add a line here saying where your competitive programming stands as of now
-       (current Codeforces / LeetCode ratings, what you're training for). --></p>
+  <p>Right now I'm preparing for the ICPC regional contest in November 2026. The current rotation
+  is the AtCoder DP set, rerooting DP variants, lazy propagation on segment trees, and Codeforces
+  and USACO Silver problems when I can fit them in.</p>
+  <p>Everything below is a running journal kept as it was written — the opening paragraph dates
+  from September 2023, so its goals were overtaken by the updates that follow it.</p>
 ---
 
 My Competitive Programming (CP) journey has been quite rocky, but I

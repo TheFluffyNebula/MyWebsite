@@ -4,7 +4,7 @@ slug: InterviewArcade
 permalink: /Projects/InterviewArcade.html
 title: Interview Arcade
 description: Technical interview practice tool that takes code and audio input, evaluates both, and returns spoken feedback. 1st place at HackNC 2025.
-last_updated: 2026-10-20
+last_updated: 2026-10-21
 ---
 
 This project was made for the HackNC 2025 hackathon. Interview Arcade is a technical interview practice tool
@@ -16,8 +16,8 @@ voiceover on the overall feedback. I'm proud to say that we won 1st place in the
 You can read the full write-up on
 [our Devpost page](https://devpost.com/software/interview-arcade).
 
-<!-- TODO: add the demo video. Once you have a URL, set video_url on the InterviewArcade entry in
-     src/_data/projects.json and the "Watch video" button appears on the page and the card. -->
+There's also a short [demo video](https://www.youtube.com/shorts/iDLfkx3CNak), put together by one
+of my teammates.
 
 <p class="project-media"><img src="{{ '/Images/InterviewArcade/Us.jpg' | url }}" alt="The four-person Interview Arcade team standing together in a classroom after the hackathon." loading="lazy"></p>
 
