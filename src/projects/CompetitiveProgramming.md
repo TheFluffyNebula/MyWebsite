@@ -4,7 +4,7 @@ slug: CompetitiveProgramming
 permalink: /Projects/CompetitiveProgramming.html
 title: Competitive Programming
 description: An ongoing record of contests, ratings and the problem-solving techniques picked up along the way.
-last_updated: 2026-10-20
+last_updated: 2026-10-21
 standing: |
   <p>This page is a running journal, and the entries below are kept as they were written — the
   opening paragraph dates from September 2023, so its goals and ratings were overtaken by the
@@ -12,13 +12,6 @@ standing: |
   <p><!-- TODO: add a line here saying where your competitive programming stands as of now
        (current Codeforces / LeetCode ratings, what you're training for). --></p>
 ---
-
-AllSilver is the long game: solving every past USACO Silver problem, roughly 180 of them. I'm
-about halfway. I track it in a sheet, one column per contest, colour-coded by whether a problem
-is done, skipped, or worth coming back to — along with a note on what the problem needed, so the
-sheet doubles as a record of which techniques keep coming up.
-
-<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/usaco-silver-progress.png' | url }}" alt="The USACO Silver tracking sheet: a grid of contests from 2011 to 2019 with three problems each, most cells filled green for solved and annotated with the technique involved — BST template, sparse table, union find, lazy propagation — and a running total of 94 problems." loading="lazy"></p>
 
 My Competitive Programming (CP) journey has been quite rocky, but I
 am more motivated now than ever to improve and see how far I can go. So far,
@@ -109,4 +102,15 @@ next rating goal on this site is 2150, which is where I think the guardian badge
 4/4 contest.
 
 <p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/LeetCode2000.jpg' | url }}" alt="A LeetCode profile showing a contest rating of 2,013 at Knight level, top 2.47% globally, with 152 problems solved." loading="lazy"></p>
+</div>
+
+<div class="update">
+<p class="update-date">10/21/26 Update</p>
+
+AllSilver is the long game: solving every past USACO Silver problem, roughly 180 of them. I'm
+about halfway. I track it in a sheet, one column per contest, colour-coded by whether a problem
+is done, skipped, or worth coming back to — along with a note on what the problem needed, so the
+sheet doubles as a record of which techniques keep coming up.
+
+<p class="project-media"><img src="{{ '/Images/CompetitiveProgramming/usaco-silver-progress.png' | url }}" alt="The USACO Silver tracking sheet: a grid of contests from 2011 to 2019 with three problems each, most cells filled green for solved and annotated with the technique involved — BST template, sparse table, union find, lazy propagation — and a running total of 94 problems." loading="lazy"></p>
 </div>
