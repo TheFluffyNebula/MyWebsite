@@ -120,9 +120,18 @@
     "thumb": "/Images/CompetitiveProgramming/LeetCode2000.jpg",
     "thumb_alt": "A LeetCode profile page showing a contest rating of 2,013 at Knight level, in the top 2.47% globally.",
     "status": "Ongoing",
-    "repo_url": "https://github.com/TheFluffyNebula/CSES",
     "live_url": "",
-    "video_url": ""
+    "video_url": "",
+    "repos": [
+      {
+        "label": "CSES",
+        "url": "https://github.com/TheFluffyNebula/CSES"
+      },
+      {
+        "label": "AllSilver",
+        "url": "https://github.com/TheFluffyNebula/AllSilver"
+      }
+    ]
   },
   {
     "slug": "Typing",

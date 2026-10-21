@@ -37,7 +37,13 @@
       {% if p.live_url %}
         <li><a class="btn btn-sm" href="{{ p.live_url }}">Live<span class="visually-hidden"> demo of {{ p.title }}</span></a></li>
       {% endif %}
-      {% if p.repo_url %}
+      {# `repos` is a list of {label, url} for projects with more than one
+         repository; `repo_url` is the single-repo shorthand. #}
+      {% if p.repos and p.repos.length %}
+        {% for r in p.repos %}
+          <li><a class="btn btn-sm" href="{{ r.url }}">{{ r.label }}<span class="visually-hidden"> repository for {{ p.title }}</span></a></li>
+        {% endfor %}
+      {% elif p.repo_url %}
         <li><a class="btn btn-sm" href="{{ p.repo_url }}">Code<span class="visually-hidden"> repository for {{ p.title }}</span></a></li>
       {% endif %}
       {% if p.video_url %}

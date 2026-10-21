@@ -13,11 +13,6 @@ standing: |
        (current Codeforces / LeetCode ratings, what you're training for). --></p>
 ---
 
-<p class="repo-row">
-  <a href="https://github.com/TheFluffyNebula/CSES">CSES repo</a> ·
-  <a href="https://github.com/TheFluffyNebula/AllSilver">AllSilver repo</a>
-</p>
-
 AllSilver is the long game: solving every past USACO Silver problem, roughly 180 of them. I'm
 about halfway. I track it in a sheet, one column per contest, colour-coded by whether a problem
 is done, skipped, or worth coming back to — along with a note on what the problem needed, so the

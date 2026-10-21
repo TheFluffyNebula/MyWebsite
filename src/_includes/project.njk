@@ -24,7 +24,13 @@ layout: base.njk
 
       <ul class="card-links project-links">
         {% if p.live_url %}<li><a class="btn" href="{{ p.live_url }}">Live demo</a></li>{% endif %}
-        {% if p.repo_url %}<li><a class="btn" href="{{ p.repo_url }}">Source code</a></li>{% endif %}
+        {% if p.repos and p.repos.length %}
+          {% for r in p.repos %}
+            <li><a class="btn" href="{{ r.url }}">{{ r.label }} repo</a></li>
+          {% endfor %}
+        {% elif p.repo_url %}
+          <li><a class="btn" href="{{ p.repo_url }}">Source code</a></li>
+        {% endif %}
         {% if p.video_url %}<li><a class="btn" href="{{ p.video_url }}">Watch video</a></li>{% endif %}
         {% if p.devpost_url %}<li><a class="btn" href="{{ p.devpost_url }}">Devpost</a></li>{% endif %}
       </ul>
