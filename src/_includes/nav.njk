@@ -11,7 +11,7 @@
           <summary>Projects</summary>
           <ul class="nav-menu">
             <li><a href="{{ '/Projects/' | url }}"><strong>All projects</strong></a></li>
-            {% for p in projects | byGroup("featured") %}
+            {% for p in projects | byGroup("featured") | newestFirst %}
               <li><a href="{{ ('/Projects/' + p.slug + '.html') | url }}">{{ p.title }}</a></li>
             {% endfor %}
           </ul>

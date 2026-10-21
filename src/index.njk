@@ -51,7 +51,9 @@ last_updated: 2026-10-20
   <p class="section-intro">A few things I've built recently.</p>
 
   <ul class="card-grid">
-    {% for p in projects | byGroup("featured") %}
+    {# Same ordering as the projects index - newest first - so a visitor
+       doesn't meet the four featured projects in two different orders. #}
+    {% for p in projects | byGroup("featured") | newestFirst %}
       <li>{{ card(p) }}</li>
     {% endfor %}
   </ul>
