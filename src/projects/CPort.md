@@ -33,6 +33,12 @@ The datasets behind it are bulky — roughly 70GB. Mounting that into the contai
 volumes, rather than baking it into the images, took a container build from about two hours down
 to three minutes, which changed how quickly we could iterate.
 
+The frontend is deployed at
+[portfolio-opt-app.vercel.app](https://portfolio-opt-app.vercel.app/). Fair warning: it's the
+interface only. Running an optimisation needs the Flask backend up and tunnelled through to it,
+and that isn't publicly hosted — which is what 70GB of resource data tends to do to your hosting
+options. So you can look around the inputs, but it won't compute anything for you.
+
 ## Presenting it
 
 I presented C-PORT as first author at the NCROEP Symposium, where it won 1st place for
@@ -40,11 +46,12 @@ undergraduate research poster. The poster — *Web-Based Analytics Platform for 
 Optimization of Resource Technologies (C-PORT)* — covers the background, the architecture and
 the user interface, alongside four co-authors from NC State.
 
-<!-- TODO: add the poster image and/or a UI screenshot.
-     Save the file into Images/CPort/ and set `thumb` + `thumb_alt` on the CPort entry in
-     src/_data/projects.json.
-     NOTE before publishing the poster as-is: the author block carries a university email
-     address. The site deliberately publishes none, so crop or redact that strip first. -->
+<!-- TODO: add the poster image. Save it as Images/CPort/poster.png (or .jpg), then set
+     `thumb` + `thumb_alt` on the CPort entry in src/_data/projects.json.
+     Publishing the author block, email included, is a deliberate decision - don't crop it.
+     A crop of the UI panel or the efficiency-frontier chart would make a better card
+     thumbnail than the full poster, which is too dense to read at card size. -->
 
-<!-- TODO: the poster has a QR code to a live interface. If that deployment is public, set
-     live_url on the CPort entry and a "Live demo" button appears automatically. -->
+{# live_url is deliberately left empty on the CPort entry: the Vercel deployment is
+   frontend-only without the backend, so a "Live demo" button would promise more than it
+   delivers. It is linked in the prose above with that caveat instead. #}
